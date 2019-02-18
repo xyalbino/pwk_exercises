@@ -1,0 +1,3 @@
+In UDP scanning, if a port is closed, the target ports usually responds with
+an ICMP "Destination Unreachable (Port Unreachable)" packet, but this is not
+always the case, which may lead to false positives, making UDP scanning very unreliable.

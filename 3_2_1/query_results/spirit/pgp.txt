@@ -1,0 +1,52 @@
+
+Warning: Pycurl is not compiled against Openssl. Wfuzz might not work correctly when fuzzing SSL sites. Check Wfuzz's documentation for more information.
+
+
+ [92m *******************************************************************
+*                                                                 *
+* | |_| |__   ___    /\  /\__ _ _ ____   _____  ___| |_ ___ _ __  *
+* | __| '_ \ / _ \  / /_/ / _` | '__\ \ / / _ \/ __| __/ _ \ '__| *
+* | |_| | | |  __/ / __  / (_| | |   \ V /  __/\__ \ ||  __/ |    *
+*  \__|_| |_|\___| \/ /_/ \__,_|_|    \_/ \___||___/\__\___|_|    *
+*                                                                 *
+* TheHarvester Ver. 2.7.2                                         *
+* Coded by Christian Martorella                                   *
+* Edge-Security Research                                          *
+* cmartorella@edge-security.com                                   *
+*******************************************************************[94m
+
+
+[-] Starting harvesting process for domain: spirit.com
+
+[-] Searching in PGP key server..
+
+[1;32;40m Harvesting results
+
+
+[+] Emails found:
+------------------
+marcus.beck@tiani-spirit.com
+georg.koch@tiani-spirit.com
+juergen.pricken@tiani-spirit.com
+daniel.schmidlehner@tiani-spirit.com
+roland.martin@tiani-spirit.com
+redspirit@spirit.com
+alexander.markytan@tiani-spirit.com
+sol@concrete-spirit.com
+sandra.schmidlehner@tiani-spirit.com
+massi@tiani-spirit.com
+massimiliano.masi@tiani-spirit.com
+bernard@spirit.com
+wolfgang.wiecenec@tiani-spirit.com
+umberto.cappellini@tiani-spirit.com
+youngspirit@youngspirit.com
+rik@spirit.com
+dreamyu@intothespirit.com
+cenacle@cenaclespirit.com
+alex_t@spirit.com
+losoya@body-mind-spirit.com
+austen@e-spirit.com
+[1;33;40m 
+[+] Hosts found in search engines:
+------------------------------------
+No hosts found

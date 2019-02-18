@@ -1,0 +1,101 @@
+
+Warning: Pycurl is not compiled against Openssl. Wfuzz might not work correctly when fuzzing SSL sites. Check Wfuzz's documentation for more information.
+
+
+ [92m *******************************************************************
+*                                                                 *
+* | |_| |__   ___    /\  /\__ _ _ ____   _____  ___| |_ ___ _ __  *
+* | __| '_ \ / _ \  / /_/ / _` | '__\ \ / / _ \/ __| __/ _ \ '__| *
+* | |_| | | |  __/ / __  / (_| | |   \ V /  __/\__ \ ||  __/ |    *
+*  \__|_| |_|\___| \/ /_/ \__,_|_|    \_/ \___||___/\__\___|_|    *
+*                                                                 *
+* TheHarvester Ver. 2.7.2                                         *
+* Coded by Christian Martorella                                   *
+* Edge-Security Research                                          *
+* cmartorella@edge-security.com                                   *
+*******************************************************************[94m
+
+
+[-] Starting harvesting process for domain: spirit.com
+
+Full harvest on spirit.com
+[-] Searching in Google..
+	Searching 0 results...
+	Searching 100 results...
+	Searching 200 results...
+	Searching 300 results...
+	Searching 400 results...
+	Searching 500 results...
+[-] Searching in PGP Key server..
+[-] Searching in Netcraft server..
+	Searching Netcraft results..
+[-] Searching in ThreatCrowd server..
+	Searching Threatcrowd results..
+	Searching Netcraft results..
+[-] Searching in CRTSH server..
+	Searching CRT.sh results..
+[-] Searching in Virustotal server..
+	Searching Virustotal results..
+[-] Searching in Bing..
+	Searching 50 results...
+	Searching 100 results...
+	Searching 150 results...
+	Searching 200 results...
+	Searching 250 results...
+	Searching 300 results...
+	Searching 350 results...
+	Searching 400 results...
+	Searching 450 results...
+	Searching 500 results...
+
+[1;32;40m Harvesting results
+
+
+[+] Emails found:
+------------------
+No emails found
+[1;33;40m 
+[+] Hosts found in search engines:
+------------------------------------
+
+Total hosts: 64
+
+[94m[-] Resolving hostnames IPs...[1;33;40m 
+ 
+affinion.spirit.com : 184.168.221.19
+cars.spirit.com : 13.35.115.81
+compare-images.spirit.com : 13.32.80.99
+compare-static.spirit.com : 13.32.80.106
+compare.spirit.com : 34.208.234.109
+content.spirit.com : 23.219.127.51
+cruises.spirit.com : 209.202.133.39
+customersupport.spirit.com : 104.16.53.111
+email.spirit.com : 206.165.245.100
+ess.spirit.com : 208.86.168.175
+flymx.spirit.com : 66.165.174.135
+flyout.spirit.com : 66.165.174.138
+flyra.spirit.com : 66.165.174.138
+help.spirit.com : 38.101.175.47
+ir.spirit.com : 216.30.177.202
+mail.spirit.com : 66.165.174.153
+mall.spirit.com : 104.130.115.4
+marketing.spirit.com : 52.4.95.172
+mi.spirit.com : 3.81.84.50
+morego.spirit.com : 66.6.32.22
+navblue-pbs-uat.spirit.com : 40.117.149.107
+nkfsmiles.spirit.com : empty
+nkoutsidein.spirit.com : 66.165.174.180
+qaepic01.spirit.com : 66.165.174.162
+qpulse.spirit.com : 66.165.174.134
+ra.spirit.com : 66.165.174.155
+sapmobile.spirit.com : 66.165.174.140
+spiritlink.spirit.com : 66.165.174.139
+spiritlinkmanuals.spirit.com : 66.165.174.139
+staging-mia.spirit.com : 66.165.174.132
+staging.spirit.com : 66.165.174.132
+survey.spirit.com : 72.5.52.223
+teamtravel.spirit.com : 52.216.132.130
+www.spirit.com : 23.219.127.51
+
+[+] Virtual hosts:
+------------------

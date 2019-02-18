@@ -1,0 +1,20 @@
+Scan SMB ports 139 and 445 with nmap: nmap -p 139,445 10.11.21.97 --open
+Using nbtscan: nbtscan 10.11.1.1-254
+
+Null Sessions: unauthenticated netbios sessions
+In earlier versions of windows, this can be easily exploited
+
+Using rpcclient: rpcclient -U "" 10.11.1.5
+
+rpcclient commands:
+
+1. srvinfo - will return more interesting information about target host
+2. enumdomusers - will enumerate local users on target host
+3. getdompwinfo - show the target host's password policy
+
+using enum4linux: enum4linux -v 10.11.21.97
+
+=== Using nmap nse scripts ===
+
+List of scripts can be found at /usr/share/nmap/scripts
+Grep smb scripts: /usr/share/nmap/scripts | grep smb

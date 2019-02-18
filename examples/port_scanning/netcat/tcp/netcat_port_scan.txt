@@ -1,0 +1,10 @@
+nc -nvv -w 1 -z [numeric ip address] [port or port range]
+
+-n: numeric addresses only
+-vv: very verbose
+-w: timeout in seconds
+-z: zero-I/O mode [used for scanning]
+
+example:
+
+nc -nvv -w 1 -z 10.11.21.97 3385-3395

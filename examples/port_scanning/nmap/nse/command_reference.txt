@@ -1,0 +1,4 @@
+scripts directory: /usr/share/nmap/scripts
+ping sweep: nmap -sn [ip_range]
+udp scan: nmap -sU [ip/range]
+tcp scan: nmap -sT [ip/range]

@@ -1,0 +1,4 @@
+spirit.com name server ns-36.awsdns-04.com.
+spirit.com name server ns-1017.awsdns-63.net.
+spirit.com name server ns-1207.awsdns-22.org.
+spirit.com name server ns-1822.awsdns-35.co.uk.

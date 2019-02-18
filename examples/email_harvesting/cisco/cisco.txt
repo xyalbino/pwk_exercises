@@ -1,0 +1,62 @@
+
+Warning: Pycurl is not compiled against Openssl. Wfuzz might not work correctly when fuzzing SSL sites. Check Wfuzz's documentation for more information.
+
+
+ [92m *******************************************************************
+*                                                                 *
+* | |_| |__   ___    /\  /\__ _ _ ____   _____  ___| |_ ___ _ __  *
+* | __| '_ \ / _ \  / /_/ / _` | '__\ \ / / _ \/ __| __/ _ \ '__| *
+* | |_| | | |  __/ / __  / (_| | |   \ V /  __/\__ \ ||  __/ |    *
+*  \__|_| |_|\___| \/ /_/ \__,_|_|    \_/ \___||___/\__\___|_|    *
+*                                                                 *
+* TheHarvester Ver. 2.7.2                                         *
+* Coded by Christian Martorella                                   *
+* Edge-Security Research                                          *
+* cmartorella@edge-security.com                                   *
+*******************************************************************[94m
+
+
+[-] Starting harvesting process for domain: cisco.com
+
+[-] Searching in Bing:
+	Searching 50 results...
+	Searching 100 results...
+	Searching 150 results...
+	Searching 200 results...
+	Searching 250 results...
+	Searching 300 results...
+	Searching 350 results...
+	Searching 400 results...
+	Searching 450 results...
+	Searching 500 results...
+
+[1;32;40m Harvesting results
+
+
+[+] Emails found:
+------------------
+web-help@cisco.com
+gpsdiversity@cisco.com
+[1;33;40m 
+[+] Hosts found in search engines:
+------------------------------------
+
+Total hosts: 15
+
+[94m[-] Resolving hostnames IPs...[1;33;40m 
+ 
+aciappcenter.cisco.com : 72.163.10.105
+collaborate.cisco.com : 54.69.49.143
+developer.cisco.com : 13.32.80.128
+docwiki.cisco.com : 72.163.8.86
+download-ssc.cisco.com : 23.75.64.83
+hackathon.cisco.com : 128.107.70.98
+iseeat.cisco.com : 34.226.227.243
+isepb.cisco.com : 35.171.251.211
+lisp.cisco.com : 153.16.5.30
+meraki.cisco.com : 104.20.40.242
+technicaleducation.cisco.com : 64.100.8.145
+trex-tgn.cisco.com : 173.36.127.106
+ucspowercalc.cloudapps.cisco.com : 173.36.104.10
+umbrella.cisco.com : 67.215.70.40
+www.cisco.com : 23.219.96.89

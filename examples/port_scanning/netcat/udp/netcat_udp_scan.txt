@@ -1,0 +1,7 @@
+nc -unvv -w 1 -z [ip address] [port range]
+
+-u: UDP mode
+
+Example:
+
+nc -unvv -w 1 -z 10.11.21.97 160-165

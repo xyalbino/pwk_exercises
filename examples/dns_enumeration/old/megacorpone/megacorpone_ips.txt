@@ -1,0 +1,6 @@
+mail.megacorpone.com has address 38.100.193.84
+Host ftp.megacorpone.com not found: 3(NXDOMAIN)
+Host owa.megacorpone.com not found: 3(NXDOMAIN)
+Host proxy.megacorpone.com not found: 3(NXDOMAIN)
+router.megacorpone.com has address 38.100.193.71
+www.megacorpone.com has address 38.100.193.76

@@ -1,0 +1,4 @@
+# Nmap 7.70 scan initiated Sun Jan  6 14:35:13 2019 as: nmap -sS -sV -oG syn_scan.txt 10.11.21.97
+Host: 10.11.21.97 ()	Status: Up
+Host: 10.11.21.97 ()	Ports: 3389/open/tcp//ms-wbt-server//Microsoft Terminal Service/	Ignored State: filtered (999)
+# Nmap done at Sun Jan  6 14:35:49 2019 -- 1 IP address (1 host up) scanned in 35.74 seconds
