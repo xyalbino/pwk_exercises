@@ -1,0 +1,464 @@
+# Nmap 7.70 scan initiated Tue Feb 19 15:04:28 2019 as: nmap -iL smb_hosts --script smb-os-discovery.nse -oN os_scan
+Nmap scan report for 10.11.1.5
+Host is up (0.19s latency).
+Not shown: 995 closed ports
+PORT     STATE SERVICE
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+1025/tcp open  NFS-or-IIS
+3389/tcp open  ms-wbt-server
+MAC Address: 00:50:56:B8:8C:59 (VMware)
+
+Host script results:
+| smb-os-discovery: 
+|   OS: Windows XP (Windows 2000 LAN Manager)
+|   OS CPE: cpe:/o:microsoft:windows_xp::-
+|   Computer name: alice
+|   NetBIOS computer name: ALICE\x00
+|   Domain name: thinc.local
+|   Forest name: thinc.local
+|   FQDN: alice.thinc.local
+|_  System time: 2019-02-19T20:13:41+00:00
+
+Nmap scan report for 10.11.1.8
+Host is up (0.25s latency).
+Not shown: 990 filtered ports
+PORT     STATE  SERVICE
+21/tcp   open   ftp
+22/tcp   open   ssh
+25/tcp   closed smtp
+80/tcp   open   http
+111/tcp  open   rpcbind
+139/tcp  open   netbios-ssn
+443/tcp  open   https
+445/tcp  open   microsoft-ds
+631/tcp  open   ipp
+3306/tcp open   mysql
+MAC Address: 00:50:56:B8:AB:26 (VMware)
+
+Host script results:
+| smb-os-discovery: 
+|   OS: Unix (Samba 3.0.33-0.17.el4)
+|   Computer name: phoenix
+|   NetBIOS computer name: 
+|   Domain name: 
+|   FQDN: phoenix
+|_  System time: 2019-02-19T15:06:11-05:00
+
+Nmap scan report for 10.11.1.22
+Host is up (0.19s latency).
+Not shown: 989 closed ports
+PORT      STATE SERVICE
+21/tcp    open  ftp
+22/tcp    open  ssh
+23/tcp    open  telnet
+25/tcp    open  smtp
+80/tcp    open  http
+111/tcp   open  rpcbind
+139/tcp   open  netbios-ssn
+199/tcp   open  smux
+443/tcp   open  https
+995/tcp   open  pop3s
+32768/tcp open  filenet-tms
+MAC Address: 00:50:56:B8:C7:3A (VMware)
+
+Nmap scan report for 10.11.1.24
+Host is up (0.19s latency).
+Not shown: 992 closed ports
+PORT    STATE SERVICE
+22/tcp  open  ssh
+80/tcp  open  http
+110/tcp open  pop3
+139/tcp open  netbios-ssn
+143/tcp open  imap
+445/tcp open  microsoft-ds
+993/tcp open  imaps
+995/tcp open  pop3s
+MAC Address: 00:50:56:B8:09:44 (VMware)
+
+Host script results:
+| smb-os-discovery: 
+|   OS: Unix (Samba 3.0.26a)
+|   Computer name: payday
+|   NetBIOS computer name: 
+|   Domain name: 
+|   FQDN: payday
+|_  System time: 2019-02-19T15:01:01-05:00
+
+Nmap scan report for 10.11.1.31
+Host is up (0.19s latency).
+Not shown: 993 closed ports
+PORT     STATE SERVICE
+80/tcp   open  http
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+1025/tcp open  NFS-or-IIS
+1433/tcp open  ms-sql-s
+3389/tcp open  ms-wbt-server
+MAC Address: 00:50:56:B8:E5:B2 (VMware)
+
+Host script results:
+| smb-os-discovery: 
+|   OS: Windows Server 2003 3790 Service Pack 1 (Windows Server 2003 5.2)
+|   OS CPE: cpe:/o:microsoft:windows_server_2003::sp1
+|   Computer name: ralph
+|   NetBIOS computer name: RALPH\x00
+|   Workgroup: THINC\x00
+|_  System time: 2019-02-19T14:00:54-06:00
+
+Nmap scan report for 10.11.1.49
+Host is up (0.19s latency).
+Not shown: 996 filtered ports
+PORT      STATE SERVICE
+80/tcp    open  http
+135/tcp   open  msrpc
+139/tcp   open  netbios-ssn
+49155/tcp open  unknown
+MAC Address: 00:50:56:B8:13:BE (VMware)
+
+Nmap scan report for 10.11.1.50
+Host is up (0.19s latency).
+Not shown: 996 filtered ports
+PORT      STATE SERVICE
+80/tcp    open  http
+135/tcp   open  msrpc
+139/tcp   open  netbios-ssn
+49155/tcp open  unknown
+MAC Address: 00:50:56:B8:BC:56 (VMware)
+
+Nmap scan report for 10.11.1.73
+Host is up (0.19s latency).
+Not shown: 980 filtered ports
+PORT      STATE SERVICE
+135/tcp   open  msrpc
+139/tcp   open  netbios-ssn
+445/tcp   open  microsoft-ds
+554/tcp   open  rtsp
+1100/tcp  open  mctp
+2869/tcp  open  icslap
+3306/tcp  open  mysql
+3389/tcp  open  ms-wbt-server
+5357/tcp  open  wsdapi
+5800/tcp  open  vnc-http
+5900/tcp  open  vnc
+8080/tcp  open  http-proxy
+10243/tcp open  unknown
+49152/tcp open  unknown
+49153/tcp open  unknown
+49154/tcp open  unknown
+49155/tcp open  unknown
+49156/tcp open  unknown
+49157/tcp open  unknown
+49159/tcp open  unknown
+MAC Address: 00:50:56:B8:C7:74 (VMware)
+
+Host script results:
+| smb-os-discovery: 
+|   OS: Windows 7 Professional 7601 Service Pack 1 (Windows 7 Professional 6.1)
+|   OS CPE: cpe:/o:microsoft:windows_7::sp1:professional
+|   Computer name: gamma
+|   NetBIOS computer name: GAMMA\x00
+|   Workgroup: WORKGROUP\x00
+|_  System time: 2019-02-19T11:59:35-08:00
+
+Nmap scan report for 10.11.1.75
+Host is up (0.19s latency).
+Not shown: 986 filtered ports
+PORT      STATE SERVICE
+135/tcp   open  msrpc
+139/tcp   open  netbios-ssn
+445/tcp   open  microsoft-ds
+554/tcp   open  rtsp
+2869/tcp  open  icslap
+3389/tcp  open  ms-wbt-server
+5357/tcp  open  wsdapi
+10243/tcp open  unknown
+49152/tcp open  unknown
+49153/tcp open  unknown
+49155/tcp open  unknown
+49156/tcp open  unknown
+49157/tcp open  unknown
+49167/tcp open  unknown
+MAC Address: 00:50:56:B8:D2:D6 (VMware)
+
+Host script results:
+| smb-os-discovery: 
+|   OS: Windows 7 Professional 7601 Service Pack 1 (Windows 7 Professional 6.1)
+|   OS CPE: cpe:/o:microsoft:windows_7::sp1:professional
+|   Computer name: bruce
+|   NetBIOS computer name: BRUCE\x00
+|   Workgroup: WORKGROUP\x00
+|_  System time: 2019-02-19T20:06:19+00:00
+
+Nmap scan report for 10.11.1.115
+Host is up (0.19s latency).
+Not shown: 989 closed ports
+PORT      STATE SERVICE
+21/tcp    open  ftp
+22/tcp    open  ssh
+25/tcp    open  smtp
+80/tcp    open  http
+111/tcp   open  rpcbind
+139/tcp   open  netbios-ssn
+143/tcp   open  imap
+199/tcp   open  smux
+443/tcp   open  https
+3306/tcp  open  mysql
+32768/tcp open  filenet-tms
+MAC Address: 00:50:56:B8:E9:18 (VMware)
+
+Nmap scan report for 10.11.1.128
+Host is up (0.19s latency).
+Not shown: 987 closed ports
+PORT     STATE SERVICE
+21/tcp   open  ftp
+25/tcp   open  smtp
+80/tcp   open  http
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+443/tcp  open  https
+445/tcp  open  microsoft-ds
+1025/tcp open  NFS-or-IIS
+1026/tcp open  LSA-or-nterm
+1029/tcp open  ms-lsa
+3372/tcp open  msdtc
+5800/tcp open  vnc-http
+5900/tcp open  vnc
+MAC Address: 00:50:56:B8:AC:51 (VMware)
+
+Host script results:
+| smb-os-discovery: 
+|   OS: Windows 2000 (Windows 2000 LAN Manager)
+|   OS CPE: cpe:/o:microsoft:windows_2000::-
+|   Computer name: dj
+|   NetBIOS computer name: DJ\x00
+|   Workgroup: WORKGROUP\x00
+|_  System time: 2019-02-19T21:58:36+02:00
+
+Nmap scan report for 10.11.1.136
+Host is up (0.19s latency).
+Not shown: 996 closed ports
+PORT    STATE SERVICE
+22/tcp  open  ssh
+113/tcp open  ident
+139/tcp open  netbios-ssn
+445/tcp open  microsoft-ds
+MAC Address: 00:50:56:B8:3B:76 (VMware)
+
+Host script results:
+| smb-os-discovery: 
+|   OS: Unix (Samba 3.0.24)
+|   NetBIOS computer name: 
+|   Workgroup: THINC.LOCAL\x00
+|_  System time: 2019-02-19T14:59:29-05:00
+
+Nmap scan report for 10.11.1.145
+Host is up (0.19s latency).
+Not shown: 995 filtered ports
+PORT     STATE SERVICE
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+3389/tcp open  ms-wbt-server
+8080/tcp open  http-proxy
+MAC Address: 00:50:56:B8:3D:FC (VMware)
+
+Host script results:
+| smb-os-discovery: 
+|   OS: Windows Server (R) 2008 Standard 6001 Service Pack 1 (Windows Server (R) 2008 Standard 6.0)
+|   OS CPE: cpe:/o:microsoft:windows_server_2008::sp1
+|   Computer name: HELPDESK
+|   NetBIOS computer name: HELPDESK\x00
+|   Workgroup: WORKGROUP\x00
+|_  System time: 2019-02-19T12:00:53-08:00
+
+Nmap scan report for 10.11.1.202
+Host is up (0.19s latency).
+Not shown: 982 closed ports
+PORT     STATE SERVICE
+21/tcp   open  ftp
+80/tcp   open  http
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+443/tcp  open  https
+445/tcp  open  microsoft-ds
+1029/tcp open  ms-lsa
+1032/tcp open  iad3
+1033/tcp open  netinfo
+1038/tcp open  mtqp
+1521/tcp open  oracle
+2030/tcp open  device2
+2100/tcp open  amiganetfs
+3372/tcp open  msdtc
+3389/tcp open  ms-wbt-server
+4443/tcp open  pharos
+7778/tcp open  interwise
+8080/tcp open  http-proxy
+MAC Address: 00:50:56:B8:26:5F (VMware)
+
+Host script results:
+| smb-os-discovery: 
+|   OS: Windows 2000 (Windows 2000 LAN Manager)
+|   OS CPE: cpe:/o:microsoft:windows_2000::-
+|   Computer name: oracle
+|   NetBIOS computer name: ORACLE\x00
+|   Domain name: acme.local
+|   FQDN: oracle.acme.local
+|_  System time: 2019-02-19T22:00:54+02:00
+
+Nmap scan report for 10.11.1.218
+Host is up (0.19s latency).
+Not shown: 997 filtered ports
+PORT    STATE SERVICE
+135/tcp open  msrpc
+139/tcp open  netbios-ssn
+445/tcp open  microsoft-ds
+MAC Address: 00:50:56:B8:A5:63 (VMware)
+
+Host script results:
+| smb-os-discovery: 
+|   OS: Windows 7 Professional 7601 Service Pack 1 (Windows 7 Professional 6.1)
+|   OS CPE: cpe:/o:microsoft:windows_7::sp1:professional
+|   Computer name: observer
+|   NetBIOS computer name: OBSERVER\x00
+|   Domain name: thinc.local
+|   Forest name: thinc.local
+|   FQDN: observer.thinc.local
+|_  System time: 2013-12-27T23:37:21-08:00
+
+Nmap scan report for 10.11.1.220
+Host is up (0.18s latency).
+Not shown: 979 closed ports
+PORT      STATE SERVICE
+21/tcp    open  ftp
+53/tcp    open  domain
+88/tcp    open  kerberos-sec
+135/tcp   open  msrpc
+139/tcp   open  netbios-ssn
+389/tcp   open  ldap
+445/tcp   open  microsoft-ds
+464/tcp   open  kpasswd5
+593/tcp   open  http-rpc-epmap
+636/tcp   open  ldapssl
+3268/tcp  open  globalcatLDAP
+3269/tcp  open  globalcatLDAPssl
+3389/tcp  open  ms-wbt-server
+49152/tcp open  unknown
+49153/tcp open  unknown
+49154/tcp open  unknown
+49155/tcp open  unknown
+49157/tcp open  unknown
+49158/tcp open  unknown
+49161/tcp open  unknown
+49175/tcp open  unknown
+MAC Address: 00:50:56:B8:86:92 (VMware)
+
+Host script results:
+| smb-os-discovery: 
+|   OS: Windows Server 2008 R2 Standard 7601 Service Pack 1 (Windows Server 2008 R2 Standard 6.1)
+|   OS CPE: cpe:/o:microsoft:windows_server_2008::sp1
+|   Computer name: master
+|   NetBIOS computer name: MASTER\x00
+|   Domain name: thinc.local
+|   Forest name: thinc.local
+|   FQDN: master.thinc.local
+|_  System time: 2013-12-27T23:37:28-08:00
+
+Nmap scan report for 10.11.1.223
+Host is up (0.19s latency).
+Not shown: 987 closed ports
+PORT      STATE SERVICE
+80/tcp    open  http
+135/tcp   open  msrpc
+139/tcp   open  netbios-ssn
+443/tcp   open  https
+445/tcp   open  microsoft-ds
+3306/tcp  open  mysql
+3389/tcp  open  ms-wbt-server
+49152/tcp open  unknown
+49153/tcp open  unknown
+49154/tcp open  unknown
+49155/tcp open  unknown
+49156/tcp open  unknown
+49157/tcp open  unknown
+MAC Address: 00:50:56:B8:7A:B0 (VMware)
+
+Host script results:
+| smb-os-discovery: 
+|   OS: Windows Server (R) 2008 Standard 6001 Service Pack 1 (Windows Server (R) 2008 Standard 6.0)
+|   OS CPE: cpe:/o:microsoft:windows_server_2008::sp1
+|   Computer name: Jeff
+|   NetBIOS computer name: JEFF\x00
+|   Workgroup: WORKGROUP\x00
+|_  System time: 2019-02-19T12:00:56-08:00
+
+Nmap scan report for 10.11.1.227
+Host is up (0.19s latency).
+Not shown: 991 closed ports
+PORT     STATE SERVICE
+21/tcp   open  ftp
+25/tcp   open  smtp
+80/tcp   open  http
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+443/tcp  open  https
+1025/tcp open  NFS-or-IIS
+1026/tcp open  LSA-or-nterm
+3372/tcp open  msdtc
+MAC Address: 00:50:56:B8:0C:45 (VMware)
+
+Nmap scan report for 10.11.1.229
+Host is up (0.19s latency).
+Not shown: 988 filtered ports
+PORT     STATE  SERVICE
+21/tcp   open   ftp
+23/tcp   closed telnet
+25/tcp   open   smtp
+80/tcp   open   http
+110/tcp  open   pop3
+135/tcp  open   msrpc
+139/tcp  open   netbios-ssn
+143/tcp  open   imap
+443/tcp  closed https
+1025/tcp open   NFS-or-IIS
+2869/tcp closed icslap
+3389/tcp open   ms-wbt-server
+MAC Address: 00:50:56:B8:F8:1C (VMware)
+
+Host script results:
+| smb-os-discovery: 
+|   OS: Windows Server 2003 3790 Service Pack 1 (Windows Server 2003 5.2)
+|   OS CPE: cpe:/o:microsoft:windows_server_2003::sp1
+|   Computer name: mail
+|   NetBIOS computer name: MAIL\x00
+|   Workgroup: WORKGROUP\x00
+|_  System time: 2019-02-19T13:58:43-06:00
+
+Nmap scan report for 10.11.1.230
+Host is up (0.20s latency).
+Not shown: 990 closed ports
+PORT      STATE SERVICE
+135/tcp   open  msrpc
+139/tcp   open  netbios-ssn
+445/tcp   open  microsoft-ds
+3389/tcp  open  ms-wbt-server
+49152/tcp open  unknown
+49153/tcp open  unknown
+49154/tcp open  unknown
+49155/tcp open  unknown
+49158/tcp open  unknown
+49160/tcp open  unknown
+MAC Address: 00:50:56:B8:8A:F0 (VMware)
+
+Host script results:
+| smb-os-discovery: 
+|   OS: Windows 7 Ultimate N 7600 (Windows 7 Ultimate N 6.1)
+|   OS CPE: cpe:/o:microsoft:windows_7::-
+|   Computer name: kevin
+|   NetBIOS computer name: KEVIN\x00
+|   Workgroup: WORKGROUP\x00
+|_  System time: 2019-02-19T12:00:59-08:00
+
+# Nmap done at Tue Feb 19 15:12:47 2019 -- 20 IP addresses (20 hosts up) scanned in 498.78 seconds

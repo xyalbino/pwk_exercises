@@ -1,0 +1,162 @@
+# Nmap 7.70 scan initiated Wed Feb 20 18:33:09 2019 as: nmap -p 139,445 --script smb-vuln-ms07-029.nse -iL smb_hosts -oA ms07
+Nmap scan report for 10.11.1.5
+Host is up (0.048s latency).
+
+PORT    STATE SERVICE
+139/tcp open  netbios-ssn
+445/tcp open  microsoft-ds
+MAC Address: 00:50:56:B8:8C:59 (VMware)
+
+Nmap scan report for 10.11.1.8
+Host is up (0.19s latency).
+
+PORT    STATE SERVICE
+139/tcp open  netbios-ssn
+445/tcp open  microsoft-ds
+MAC Address: 00:50:56:B8:AB:26 (VMware)
+
+Nmap scan report for 10.11.1.22
+Host is up (0.19s latency).
+
+PORT    STATE  SERVICE
+139/tcp open   netbios-ssn
+445/tcp closed microsoft-ds
+MAC Address: 00:50:56:B8:C7:3A (VMware)
+
+Nmap scan report for 10.11.1.24
+Host is up (0.19s latency).
+
+PORT    STATE SERVICE
+139/tcp open  netbios-ssn
+445/tcp open  microsoft-ds
+MAC Address: 00:50:56:B8:09:44 (VMware)
+
+Nmap scan report for 10.11.1.31
+Host is up (0.19s latency).
+
+PORT    STATE SERVICE
+139/tcp open  netbios-ssn
+445/tcp open  microsoft-ds
+MAC Address: 00:50:56:B8:E5:B2 (VMware)
+
+Nmap scan report for 10.11.1.49
+Host is up (0.22s latency).
+
+PORT    STATE    SERVICE
+139/tcp open     netbios-ssn
+445/tcp filtered microsoft-ds
+MAC Address: 00:50:56:B8:13:BE (VMware)
+
+Nmap scan report for 10.11.1.50
+Host is up (0.22s latency).
+
+PORT    STATE    SERVICE
+139/tcp open     netbios-ssn
+445/tcp filtered microsoft-ds
+MAC Address: 00:50:56:B8:BC:56 (VMware)
+
+Nmap scan report for 10.11.1.73
+Host is up (0.22s latency).
+
+PORT    STATE SERVICE
+139/tcp open  netbios-ssn
+445/tcp open  microsoft-ds
+MAC Address: 00:50:56:B8:C7:74 (VMware)
+
+Nmap scan report for 10.11.1.75
+Host is up (0.22s latency).
+
+PORT    STATE SERVICE
+139/tcp open  netbios-ssn
+445/tcp open  microsoft-ds
+MAC Address: 00:50:56:B8:D2:D6 (VMware)
+
+Nmap scan report for 10.11.1.115
+Host is up (0.19s latency).
+
+PORT    STATE  SERVICE
+139/tcp open   netbios-ssn
+445/tcp closed microsoft-ds
+MAC Address: 00:50:56:B8:E9:18 (VMware)
+
+Nmap scan report for 10.11.1.128
+Host is up (0.22s latency).
+
+PORT    STATE SERVICE
+139/tcp open  netbios-ssn
+445/tcp open  microsoft-ds
+MAC Address: 00:50:56:B8:AC:51 (VMware)
+
+Nmap scan report for 10.11.1.136
+Host is up (0.047s latency).
+
+PORT    STATE SERVICE
+139/tcp open  netbios-ssn
+445/tcp open  microsoft-ds
+MAC Address: 00:50:56:B8:3B:76 (VMware)
+
+Nmap scan report for 10.11.1.145
+Host is up (0.068s latency).
+
+PORT    STATE SERVICE
+139/tcp open  netbios-ssn
+445/tcp open  microsoft-ds
+MAC Address: 00:50:56:B8:3D:FC (VMware)
+
+Nmap scan report for 10.11.1.202
+Host is up (0.050s latency).
+
+PORT    STATE SERVICE
+139/tcp open  netbios-ssn
+445/tcp open  microsoft-ds
+MAC Address: 00:50:56:B8:26:5F (VMware)
+
+Nmap scan report for 10.11.1.218
+Host is up (0.072s latency).
+
+PORT    STATE SERVICE
+139/tcp open  netbios-ssn
+445/tcp open  microsoft-ds
+MAC Address: 00:50:56:B8:A5:63 (VMware)
+
+Nmap scan report for 10.11.1.220
+Host is up (0.071s latency).
+
+PORT    STATE SERVICE
+139/tcp open  netbios-ssn
+445/tcp open  microsoft-ds
+MAC Address: 00:50:56:B8:86:92 (VMware)
+
+Nmap scan report for 10.11.1.223
+Host is up (0.069s latency).
+
+PORT    STATE SERVICE
+139/tcp open  netbios-ssn
+445/tcp open  microsoft-ds
+MAC Address: 00:50:56:B8:7A:B0 (VMware)
+
+Nmap scan report for 10.11.1.227
+Host is up (0.048s latency).
+
+PORT    STATE  SERVICE
+139/tcp open   netbios-ssn
+445/tcp closed microsoft-ds
+MAC Address: 00:50:56:B8:0C:45 (VMware)
+
+Nmap scan report for 10.11.1.229
+Host is up (0.0012s latency).
+
+PORT    STATE    SERVICE
+139/tcp filtered netbios-ssn
+445/tcp filtered microsoft-ds
+MAC Address: 00:50:56:B8:F8:1C (VMware)
+
+Nmap scan report for 10.11.1.230
+Host is up (0.076s latency).
+
+PORT    STATE SERVICE
+139/tcp open  netbios-ssn
+445/tcp open  microsoft-ds
+MAC Address: 00:50:56:B8:8A:F0 (VMware)
+
+# Nmap done at Wed Feb 20 18:34:17 2019 -- 20 IP addresses (20 hosts up) scanned in 68.90 seconds

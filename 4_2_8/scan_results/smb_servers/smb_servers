@@ -1,0 +1,92 @@
+# Nmap 7.70 scan initiated Tue Feb 19 13:20:09 2019 as: nmap -p 139,445 --script smb-os-discovery.nse -iL live_hosts -oG smb_servers
+Host: 10.11.1.5 ()	Status: Up
+Host: 10.11.1.5 ()	Ports: 139/open/tcp//netbios-ssn///, 445/open/tcp//microsoft-ds//Windows XP microsoft-ds/
+Host: 10.11.1.7 ()	Status: Up
+Host: 10.11.1.7 ()	Ports: 139/filtered/tcp//netbios-ssn///, 445/filtered/tcp//microsoft-ds///
+Host: 10.11.1.8 ()	Status: Up
+Host: 10.11.1.8 ()	Ports: 139/open/tcp//netbios-ssn///, 445/open/tcp//microsoft-ds//Samba smbd 3.0.33-0.17.el4/
+Host: 10.11.1.10 ()	Status: Up
+Host: 10.11.1.10 ()	Ports: 139/filtered/tcp//netbios-ssn///, 445/filtered/tcp//microsoft-ds///
+Host: 10.11.1.13 ()	Status: Up
+Host: 10.11.1.13 ()	Ports: 139/filtered/tcp//netbios-ssn///, 445/filtered/tcp//microsoft-ds///
+Host: 10.11.1.14 ()	Status: Up
+Host: 10.11.1.14 ()	Ports: 139/filtered/tcp//netbios-ssn///, 445/filtered/tcp//microsoft-ds///
+Host: 10.11.1.22 ()	Status: Up
+Host: 10.11.1.22 ()	Ports: 139/open/tcp//netbios-ssn///, 445/closed/tcp//microsoft-ds///
+Host: 10.11.1.24 ()	Status: Up
+Host: 10.11.1.24 ()	Ports: 139/open/tcp//netbios-ssn///, 445/open/tcp//microsoft-ds//Samba smbd 3.0.26a/
+Host: 10.11.1.31 ()	Status: Up
+Host: 10.11.1.31 ()	Ports: 139/open/tcp//netbios-ssn///, 445/open/tcp//microsoft-ds//Windows Server 2003 3790 Service Pack 1 microsoft-ds/
+Host: 10.11.1.35 ()	Status: Up
+Host: 10.11.1.35 ()	Ports: 139/filtered/tcp//netbios-ssn///, 445/filtered/tcp//microsoft-ds///
+Host: 10.11.1.39 ()	Status: Up
+Host: 10.11.1.39 ()	Ports: 139/filtered/tcp//netbios-ssn///, 445/filtered/tcp//microsoft-ds///
+Host: 10.11.1.44 ()	Status: Up
+Host: 10.11.1.44 ()	Ports: 139/closed/tcp//netbios-ssn///, 445/closed/tcp//microsoft-ds///
+Host: 10.11.1.49 ()	Status: Up
+Host: 10.11.1.49 ()	Ports: 139/open/tcp//netbios-ssn///, 445/filtered/tcp//microsoft-ds///
+Host: 10.11.1.50 ()	Status: Up
+Host: 10.11.1.50 ()	Ports: 139/open/tcp//netbios-ssn///, 445/filtered/tcp//microsoft-ds///
+Host: 10.11.1.71 ()	Status: Up
+Host: 10.11.1.71 ()	Ports: 139/closed/tcp//netbios-ssn///, 445/closed/tcp//microsoft-ds///
+Host: 10.11.1.72 ()	Status: Up
+Host: 10.11.1.72 ()	Ports: 139/closed/tcp//netbios-ssn///, 445/closed/tcp//microsoft-ds///
+Host: 10.11.1.73 ()	Status: Up
+Host: 10.11.1.73 ()	Ports: 139/open/tcp//netbios-ssn///, 445/open/tcp//microsoft-ds//Windows 7 Professional 7601 Service Pack 1 microsoft-ds/
+Host: 10.11.1.75 ()	Status: Up
+Host: 10.11.1.75 ()	Ports: 139/open/tcp//netbios-ssn///, 445/open/tcp//microsoft-ds//Windows 7 Professional 7601 Service Pack 1 microsoft-ds/
+Host: 10.11.1.115 ()	Status: Up
+Host: 10.11.1.115 ()	Ports: 139/open/tcp//netbios-ssn///, 445/closed/tcp//microsoft-ds///
+Host: 10.11.1.116 ()	Status: Up
+Host: 10.11.1.116 ()	Ports: 139/closed/tcp//netbios-ssn///, 445/closed/tcp//microsoft-ds///
+Host: 10.11.1.125 ()	Status: Up
+Host: 10.11.1.125 ()	Ports: 139/filtered/tcp//netbios-ssn///, 445/filtered/tcp//microsoft-ds///
+Host: 10.11.1.128 ()	Status: Up
+Host: 10.11.1.128 ()	Ports: 139/open/tcp//netbios-ssn///, 445/open/tcp//microsoft-ds//Windows 2000 microsoft-ds/
+Host: 10.11.1.133 ()	Status: Up
+Host: 10.11.1.133 ()	Ports: 139/closed/tcp//netbios-ssn///, 445/closed/tcp//microsoft-ds///
+Host: 10.11.1.136 ()	Status: Up
+Host: 10.11.1.136 ()	Ports: 139/open/tcp//netbios-ssn///, 445/open/tcp//microsoft-ds//Samba smbd 3.0.24/
+Host: 10.11.1.141 ()	Status: Up
+Host: 10.11.1.141 ()	Ports: 139/closed/tcp//netbios-ssn///, 445/closed/tcp//microsoft-ds///
+Host: 10.11.1.145 ()	Status: Up
+Host: 10.11.1.145 ()	Ports: 139/open/tcp//netbios-ssn///, 445/open/tcp//microsoft-ds//Windows Server (R) 2008 Standard 6001 Service Pack 1 microsoft-ds/
+Host: 10.11.1.146 ()	Status: Up
+Host: 10.11.1.146 ()	Ports: 139/closed/tcp//netbios-ssn///, 445/closed/tcp//microsoft-ds///
+Host: 10.11.1.202 ()	Status: Up
+Host: 10.11.1.202 ()	Ports: 139/open/tcp//netbios-ssn///, 445/open/tcp//microsoft-ds//Windows 2000 microsoft-ds/
+Host: 10.11.1.209 ()	Status: Up
+Host: 10.11.1.209 ()	Ports: 139/closed/tcp//netbios-ssn///, 445/closed/tcp//microsoft-ds///
+Host: 10.11.1.217 ()	Status: Up
+Host: 10.11.1.217 ()	Ports: 139/closed/tcp//netbios-ssn///, 445/closed/tcp//microsoft-ds///
+Host: 10.11.1.218 ()	Status: Up
+Host: 10.11.1.218 ()	Ports: 139/open/tcp//netbios-ssn///, 445/open/tcp//microsoft-ds//Windows 7 Professional 7601 Service Pack 1 microsoft-ds/
+Host: 10.11.1.219 ()	Status: Up
+Host: 10.11.1.219 ()	Ports: 139/filtered/tcp//netbios-ssn///, 445/filtered/tcp//microsoft-ds///
+Host: 10.11.1.220 ()	Status: Up
+Host: 10.11.1.220 ()	Ports: 139/open/tcp//netbios-ssn///, 445/open/tcp//microsoft-ds//Windows Server 2008 R2 Standard 7601 Service Pack 1 microsoft-ds/
+Host: 10.11.1.221 ()	Status: Up
+Host: 10.11.1.221 ()	Ports: 139/filtered/tcp//netbios-ssn///, 445/filtered/tcp//microsoft-ds///
+Host: 10.11.1.223 ()	Status: Up
+Host: 10.11.1.223 ()	Ports: 139/open/tcp//netbios-ssn///, 445/open/tcp//microsoft-ds//Windows Server (R) 2008 Standard 6001 Service Pack 1 microsoft-ds/
+Host: 10.11.1.226 ()	Status: Up
+Host: 10.11.1.226 ()	Ports: 139/filtered/tcp//netbios-ssn///, 445/filtered/tcp//microsoft-ds///
+Host: 10.11.1.227 ()	Status: Up
+Host: 10.11.1.227 ()	Ports: 139/open/tcp//netbios-ssn///, 445/closed/tcp//microsoft-ds///
+Host: 10.11.1.229 ()	Status: Up
+Host: 10.11.1.229 ()	Ports: 139/open/tcp//netbios-ssn//Windows Server 2003 3790 Service Pack 1 netbios-ssn/, 445/filtered/tcp//microsoft-ds///
+Host: 10.11.1.230 ()	Status: Up
+Host: 10.11.1.230 ()	Ports: 139/open/tcp//netbios-ssn///, 445/open/tcp//microsoft-ds//Windows 7 Ultimate N 7600 microsoft-ds/
+Host: 10.11.1.234 ()	Status: Up
+Host: 10.11.1.234 ()	Ports: 139/closed/tcp//netbios-ssn///, 445/closed/tcp//microsoft-ds///
+Host: 10.11.1.237 ()	Status: Up
+Host: 10.11.1.237 ()	Ports: 139/closed/tcp//netbios-ssn///, 445/closed/tcp//microsoft-ds///
+Host: 10.11.1.238 ()	Status: Up
+Host: 10.11.1.238 ()	Ports: 139/closed/tcp//netbios-ssn///, 445/closed/tcp//microsoft-ds///
+Host: 10.11.1.247 ()	Status: Up
+Host: 10.11.1.247 ()	Ports: 139/filtered/tcp//netbios-ssn///, 445/filtered/tcp//microsoft-ds///
+Host: 10.11.1.251 ()	Status: Up
+Host: 10.11.1.251 ()	Ports: 139/filtered/tcp//netbios-ssn///, 445/filtered/tcp//microsoft-ds///
+Host: 10.11.1.252 ()	Status: Up
+Host: 10.11.1.252 ()	Ports: 139/filtered/tcp//netbios-ssn///, 445/filtered/tcp//microsoft-ds///
+# Nmap done at Tue Feb 19 13:20:45 2019 -- 45 IP addresses (45 hosts up) scanned in 36.14 seconds

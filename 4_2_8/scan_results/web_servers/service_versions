@@ -1,0 +1,58 @@
+# Nmap 7.70 scan initiated Tue Feb 19 12:42:57 2019 as: nmap -sV -p 80 -iL web_servers -oG service_versions
+Host: 10.11.1.8 ()	Status: Up
+Host: 10.11.1.8 ()	Ports: 80/open/tcp//http//Apache httpd 2.0.52 ((CentOS))/
+Host: 10.11.1.10 ()	Status: Up
+Host: 10.11.1.10 ()	Ports: 80/open/tcp//http//Microsoft IIS httpd 6.0/
+Host: 10.11.1.13 ()	Status: Up
+Host: 10.11.1.13 ()	Ports: 80/open/tcp//http//Microsoft IIS httpd 5.1/
+Host: 10.11.1.14 ()	Status: Up
+Host: 10.11.1.14 ()	Ports: 80/open/tcp//http//Microsoft IIS httpd 5.1/
+Host: 10.11.1.22 ()	Status: Up
+Host: 10.11.1.22 ()	Ports: 80/open/tcp//http//Apache httpd 1.3.23 ((Unix)  (Red-Hat|Linux) mod_python|2.7.6 Python|1.5.2 mod_ssl|2.8.7 OpenSSL|0.9.6b DAV|1.0.3 PHP|4.1.2 mod_perl|1.26 mod_throttle|3.1.2)/
+Host: 10.11.1.24 ()	Status: Up
+Host: 10.11.1.24 ()	Ports: 80/open/tcp//http//Apache httpd 2.2.4 ((Ubuntu) PHP|5.2.3-1ubuntu6)/
+Host: 10.11.1.31 ()	Status: Up
+Host: 10.11.1.31 ()	Ports: 80/open/tcp//http//Microsoft IIS httpd 6.0/
+Host: 10.11.1.39 ()	Status: Up
+Host: 10.11.1.39 ()	Ports: 80/open/tcp//http//nginx 1.6.3/
+Host: 10.11.1.49 ()	Status: Up
+Host: 10.11.1.49 ()	Ports: 80/open/tcp//http//Microsoft IIS httpd 8.5/
+Host: 10.11.1.50 ()	Status: Up
+Host: 10.11.1.50 ()	Ports: 80/open/tcp//http//Microsoft IIS httpd 8.5/
+Host: 10.11.1.71 ()	Status: Up
+Host: 10.11.1.71 ()	Ports: 80/open/tcp//http//Apache httpd 2.4.7 ((Ubuntu))/
+Host: 10.11.1.72 ()	Status: Up
+Host: 10.11.1.72 ()	Ports: 80/open/tcp//http//Apache httpd 2.2.20 ((Ubuntu))/
+Host: 10.11.1.115 ()	Status: Up
+Host: 10.11.1.115 ()	Ports: 80/open/tcp//http//Apache httpd 2.0.40 ((Red Hat Linux))/
+Host: 10.11.1.116 ()	Status: Up
+Host: 10.11.1.116 ()	Ports: 80/open/tcp//http//Apache httpd 2.4.6 ((FreeBSD) PHP|5.4.23)/
+Host: 10.11.1.128 ()	Status: Up
+Host: 10.11.1.128 ()	Ports: 80/open/tcp//http//Microsoft IIS httpd 5.0/
+Host: 10.11.1.133 ()	Status: Up
+Host: 10.11.1.133 ()	Ports: 80/open/tcp//http//Microsoft-IIS         /
+Host: 10.11.1.202 ()	Status: Up
+Host: 10.11.1.202 ()	Ports: 80/open/tcp//http//Microsoft IIS httpd 5.0/
+Host: 10.11.1.209 ()	Status: Up
+Host: 10.11.1.209 ()	Ports: 80/open/tcp//http//Apache httpd 1.3.41 ((Unix) mod_perl|1.31)/
+Host: 10.11.1.217 ()	Status: Up
+Host: 10.11.1.217 ()	Ports: 80/open/tcp//http//Apache httpd 2.2.3/
+Host: 10.11.1.219 ()	Status: Up
+Host: 10.11.1.219 ()	Ports: 80/open/tcp//http//Apache httpd/
+Host: 10.11.1.223 ()	Status: Up
+Host: 10.11.1.223 ()	Ports: 80/open/tcp//http//Apache httpd 2.2.14 (DAV|2 mod_ssl|2.2.14 OpenSSL|0.9.8l mod_autoindex_color PHP|5.3.1 mod_apreq2-20090110|2.7.1 mod_perl|2.0.4 Perl|v5.10.1)/
+Host: 10.11.1.227 ()	Status: Up
+Host: 10.11.1.227 ()	Ports: 80/open/tcp//http//Microsoft IIS httpd 5.0/
+Host: 10.11.1.229 ()	Status: Up
+Host: 10.11.1.229 ()	Ports: 80/open/tcp//http//Microsoft IIS httpd 6.0/
+Host: 10.11.1.230 ()	Status: Up
+Host: 10.11.1.230 ()	Ports: 80/open/tcp//http?///
+Host: 10.11.1.234 ()	Status: Up
+Host: 10.11.1.234 ()	Ports: 80/open/tcp//http//Apache httpd 2.2.14 ((Ubuntu))/
+Host: 10.11.1.237 ()	Status: Up
+Host: 10.11.1.237 ()	Ports: 80/open/tcp//http//Apache httpd 2.2.22 ((Debian))/
+Host: 10.11.1.238 ()	Status: Up
+Host: 10.11.1.238 ()	Ports: 80/open/tcp//http//Apache httpd 2.2.22 ((Debian))/
+Host: 10.11.1.251 ()	Status: Up
+Host: 10.11.1.251 ()	Ports: 80/open/tcp//http//Apache httpd 2.2.11 ((Ubuntu) PHP|5.2.6-3ubuntu4.4 with Suhosin-Patch)/
+# Nmap done at Tue Feb 19 12:44:45 2019 -- 28 IP addresses (28 hosts up) scanned in 108.34 seconds

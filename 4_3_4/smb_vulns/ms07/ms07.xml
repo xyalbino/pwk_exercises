@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.70 scan initiated Wed Feb 20 18:33:09 2019 as: nmap -p 139,445 -&#45;script smb-vuln-ms07-029.nse -iL smb_hosts -oA ms07 -->
+<nmaprun scanner="nmap" args="nmap -p 139,445 -&#45;script smb-vuln-ms07-029.nse -iL smb_hosts -oA ms07" start="1550705589" startstr="Wed Feb 20 18:33:09 2019" version="7.70" xmloutputversion="1.04">
+<scaninfo type="syn" protocol="tcp" numservices="2" services="139,445"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<host starttime="1550705589" endtime="1550705646"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="10.11.1.5" addrtype="ipv4"/>
+<address addr="00:50:56:B8:8C:59" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="139"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="netbios-ssn" method="table" conf="3"/></port>
+<port protocol="tcp" portid="445"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="microsoft-ds" method="table" conf="3"/></port>
+</ports>
+<times srtt="48394" rttvar="82790" to="379554"/>
+</host>
+<host starttime="1550705589" endtime="1550705648"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="10.11.1.8" addrtype="ipv4"/>
+<address addr="00:50:56:B8:AB:26" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="139"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="netbios-ssn" method="table" conf="3"/></port>
+<port protocol="tcp" portid="445"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="microsoft-ds" method="table" conf="3"/></port>
+</ports>
+<times srtt="193219" rttvar="109212" to="630067"/>
+</host>
+<host starttime="1550705589" endtime="1550705597"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="10.11.1.22" addrtype="ipv4"/>
+<address addr="00:50:56:B8:C7:3A" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="139"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="netbios-ssn" method="table" conf="3"/></port>
+<port protocol="tcp" portid="445"><state state="closed" reason="reset" reason_ttl="255"/><service name="microsoft-ds" method="table" conf="3"/></port>
+</ports>
+<times srtt="193324" rttvar="109291" to="630488"/>
+</host>
+<host starttime="1550705589" endtime="1550705650"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="10.11.1.24" addrtype="ipv4"/>
+<address addr="00:50:56:B8:09:44" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="139"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="netbios-ssn" method="table" conf="3"/></port>
+<port protocol="tcp" portid="445"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="microsoft-ds" method="table" conf="3"/></port>
+</ports>
+<times srtt="193278" rttvar="109089" to="629634"/>
+</host>
+<host starttime="1550705589" endtime="1550705597"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="10.11.1.31" addrtype="ipv4"/>
+<address addr="00:50:56:B8:E5:B2" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="139"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="netbios-ssn" method="table" conf="3"/></port>
+<port protocol="tcp" portid="445"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="microsoft-ds" method="table" conf="3"/></port>
+</ports>
+<times srtt="193255" rttvar="109058" to="629487"/>
+</host>
+<host starttime="1550705589" endtime="1550705597"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="10.11.1.49" addrtype="ipv4"/>
+<address addr="00:50:56:B8:13:BE" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="139"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="netbios-ssn" method="table" conf="3"/></port>
+<port protocol="tcp" portid="445"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="microsoft-ds" method="table" conf="3"/></port>
+</ports>
+<times srtt="218912" rttvar="196539" to="1005068"/>
+</host>
+<host starttime="1550705589" endtime="1550705600"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="10.11.1.50" addrtype="ipv4"/>
+<address addr="00:50:56:B8:BC:56" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="139"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="netbios-ssn" method="table" conf="3"/></port>
+<port protocol="tcp" portid="445"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="microsoft-ds" method="table" conf="3"/></port>
+</ports>
+<times srtt="218850" rttvar="196478" to="1004762"/>
+</host>
+<host starttime="1550705589" endtime="1550705651"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="10.11.1.73" addrtype="ipv4"/>
+<address addr="00:50:56:B8:C7:74" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="139"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="netbios-ssn" method="table" conf="3"/></port>
+<port protocol="tcp" portid="445"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="microsoft-ds" method="table" conf="3"/></port>
+</ports>
+<times srtt="216020" rttvar="153270" to="829100"/>
+</host>
+<host starttime="1550705589" endtime="1550705654"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="10.11.1.75" addrtype="ipv4"/>
+<address addr="00:50:56:B8:D2:D6" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="139"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="netbios-ssn" method="table" conf="3"/></port>
+<port protocol="tcp" portid="445"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="microsoft-ds" method="table" conf="3"/></port>
+</ports>
+<times srtt="215992" rttvar="153276" to="829096"/>
+</host>
+<host starttime="1550705589" endtime="1550705597"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="10.11.1.115" addrtype="ipv4"/>
+<address addr="00:50:56:B8:E9:18" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="139"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="netbios-ssn" method="table" conf="3"/></port>
+<port protocol="tcp" portid="445"><state state="closed" reason="reset" reason_ttl="64"/><service name="microsoft-ds" method="table" conf="3"/></port>
+</ports>
+<times srtt="194590" rttvar="110924" to="638286"/>
+</host>
+<host starttime="1550705589" endtime="1550705654"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="10.11.1.128" addrtype="ipv4"/>
+<address addr="00:50:56:B8:AC:51" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="139"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="netbios-ssn" method="table" conf="3"/></port>
+<port protocol="tcp" portid="445"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="microsoft-ds" method="table" conf="3"/></port>
+</ports>
+<times srtt="216039" rttvar="153270" to="829119"/>
+</host>
+<host starttime="1550705589" endtime="1550705653"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="10.11.1.136" addrtype="ipv4"/>
+<address addr="00:50:56:B8:3B:76" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="139"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="netbios-ssn" method="table" conf="3"/></port>
+<port protocol="tcp" portid="445"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="microsoft-ds" method="table" conf="3"/></port>
+</ports>
+<times srtt="46951" rttvar="80058" to="367183"/>
+</host>
+<host starttime="1550705589" endtime="1550705596"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="10.11.1.145" addrtype="ipv4"/>
+<address addr="00:50:56:B8:3D:FC" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="139"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="netbios-ssn" method="table" conf="3"/></port>
+<port protocol="tcp" portid="445"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="microsoft-ds" method="table" conf="3"/></port>
+</ports>
+<times srtt="67880" rttvar="110137" to="508428"/>
+</host>
+<host starttime="1550705589" endtime="1550705657"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="10.11.1.202" addrtype="ipv4"/>
+<address addr="00:50:56:B8:26:5F" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="139"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="netbios-ssn" method="table" conf="3"/></port>
+<port protocol="tcp" portid="445"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="microsoft-ds" method="table" conf="3"/></port>
+</ports>
+<times srtt="49722" rttvar="82082" to="378050"/>
+</host>
+<host starttime="1550705589" endtime="1550705652"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="10.11.1.218" addrtype="ipv4"/>
+<address addr="00:50:56:B8:A5:63" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="139"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="netbios-ssn" method="table" conf="3"/></port>
+<port protocol="tcp" portid="445"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="microsoft-ds" method="table" conf="3"/></port>
+</ports>
+<times srtt="71601" rttvar="112002" to="519609"/>
+</host>
+<host starttime="1550705589" endtime="1550705653"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="10.11.1.220" addrtype="ipv4"/>
+<address addr="00:50:56:B8:86:92" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="139"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="netbios-ssn" method="table" conf="3"/></port>
+<port protocol="tcp" portid="445"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="microsoft-ds" method="table" conf="3"/></port>
+</ports>
+<times srtt="70620" rttvar="112431" to="520344"/>
+</host>
+<host starttime="1550705589" endtime="1550705597"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="10.11.1.223" addrtype="ipv4"/>
+<address addr="00:50:56:B8:7A:B0" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="139"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="netbios-ssn" method="table" conf="3"/></port>
+<port protocol="tcp" portid="445"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="microsoft-ds" method="table" conf="3"/></port>
+</ports>
+<times srtt="69344" rttvar="113284" to="522480"/>
+</host>
+<host starttime="1550705589" endtime="1550705594"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="10.11.1.227" addrtype="ipv4"/>
+<address addr="00:50:56:B8:0C:45" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="139"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="netbios-ssn" method="table" conf="3"/></port>
+<port protocol="tcp" portid="445"><state state="closed" reason="reset" reason_ttl="128"/><service name="microsoft-ds" method="table" conf="3"/></port>
+</ports>
+<times srtt="47648" rttvar="83102" to="380056"/>
+</host>
+<host starttime="1550705589" endtime="1550705593"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="10.11.1.229" addrtype="ipv4"/>
+<address addr="00:50:56:B8:F8:1C" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="139"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="netbios-ssn" method="table" conf="3"/></port>
+<port protocol="tcp" portid="445"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="microsoft-ds" method="table" conf="3"/></port>
+</ports>
+<times srtt="1157" rttvar="5000" to="100000"/>
+</host>
+<host starttime="1550705589" endtime="1550705650"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="10.11.1.230" addrtype="ipv4"/>
+<address addr="00:50:56:B8:8A:F0" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="139"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="netbios-ssn" method="table" conf="3"/></port>
+<port protocol="tcp" portid="445"><state state="open" reason="syn-ack" reason_ttl="128"/><service name="microsoft-ds" method="table" conf="3"/></port>
+</ports>
+<times srtt="75570" rttvar="122045" to="563750"/>
+</host>
+<runstats><finished time="1550705657" timestr="Wed Feb 20 18:34:17 2019" elapsed="68.90" summary="Nmap done at Wed Feb 20 18:34:17 2019; 20 IP addresses (20 hosts up) scanned in 68.90 seconds" exit="success"/><hosts up="20" down="0" total="20"/>
+</runstats>
+</nmaprun>
