@@ -1,0 +1,112 @@
+# Nmap 7.70 scan initiated Fri Feb 22 12:36:15 2019 as: nmap -p 139,445 -iL ../smb_hosts --script smb-vuln-ms10-061.nse -oN ms10_61
+Nmap scan report for 10.11.1.8
+Host is up (0.15s latency).
+
+PORT    STATE SERVICE
+139/tcp open  netbios-ssn
+445/tcp open  microsoft-ds
+MAC Address: 00:50:56:B8:AB:26 (VMware)
+
+Host script results:
+|_smb-vuln-ms10-061: false
+
+Nmap scan report for 10.11.1.22
+Host is up (0.12s latency).
+
+PORT    STATE  SERVICE
+139/tcp open   netbios-ssn
+445/tcp closed microsoft-ds
+MAC Address: 00:50:56:B8:C7:3A (VMware)
+
+Host script results:
+|_smb-vuln-ms10-061: Could not negotiate a connection:SMB: ERROR: Server returned less data than it was supposed to (one or more fields are missing); aborting [14]
+
+Nmap scan report for 10.11.1.24
+Host is up (0.13s latency).
+
+PORT    STATE SERVICE
+139/tcp open  netbios-ssn
+445/tcp open  microsoft-ds
+MAC Address: 00:50:56:B8:09:44 (VMware)
+
+Host script results:
+|_smb-vuln-ms10-061: false
+
+Nmap scan report for 10.11.1.31
+Host is up (0.12s latency).
+
+PORT    STATE SERVICE
+139/tcp open  netbios-ssn
+445/tcp open  microsoft-ds
+MAC Address: 00:50:56:B8:E5:B2 (VMware)
+
+Host script results:
+|_smb-vuln-ms10-061: NT_STATUS_OBJECT_NAME_NOT_FOUND
+
+Nmap scan report for 10.11.1.49
+Host is up (0.13s latency).
+
+PORT    STATE    SERVICE
+139/tcp open     netbios-ssn
+445/tcp filtered microsoft-ds
+MAC Address: 00:50:56:B8:13:BE (VMware)
+
+Host script results:
+|_smb-vuln-ms10-061: NT_STATUS_ACCESS_DENIED
+
+Nmap scan report for 10.11.1.50
+Host is up (0.13s latency).
+
+PORT    STATE    SERVICE
+139/tcp open     netbios-ssn
+445/tcp filtered microsoft-ds
+MAC Address: 00:50:56:B8:BC:56 (VMware)
+
+Host script results:
+|_smb-vuln-ms10-061: SMB: Couldn't find a NetBIOS name that works for the server. Sorry!
+
+Nmap scan report for 10.11.1.73
+Host is up (0.14s latency).
+
+PORT    STATE SERVICE
+139/tcp open  netbios-ssn
+445/tcp open  microsoft-ds
+MAC Address: 00:50:56:B8:C7:74 (VMware)
+
+Host script results:
+|_smb-vuln-ms10-061: NT_STATUS_ACCESS_DENIED
+
+Nmap scan report for 10.11.1.75
+Host is up (0.14s latency).
+
+PORT    STATE SERVICE
+139/tcp open  netbios-ssn
+445/tcp open  microsoft-ds
+MAC Address: 00:50:56:B8:D2:D6 (VMware)
+
+Host script results:
+|_smb-vuln-ms10-061: NT_STATUS_OBJECT_NAME_NOT_FOUND
+
+Nmap scan report for 10.11.1.115
+Host is up (0.14s latency).
+
+PORT    STATE  SERVICE
+139/tcp open   netbios-ssn
+445/tcp closed microsoft-ds
+MAC Address: 00:50:56:B8:E9:18 (VMware)
+
+Host script results:
+|_smb-vuln-ms10-061: Could not negotiate a connection:SMB: ERROR: Server returned less data than it was supposed to (one or more fields are missing); aborting [14]
+
+Nmap scan report for 10.11.1.128
+Host is up (0.14s latency).
+
+PORT    STATE SERVICE
+139/tcp open  netbios-ssn
+445/tcp open  microsoft-ds
+MAC Address: 00:50:56:B8:AC:51 (VMware)
+
+Host script results:
+|_smb-vuln-ms10-061: false
+
+# Nmap done at Fri Feb 22 12:36:25 2019 -- 20 IP addresses (10 hosts up) scanned in 9.36 seconds

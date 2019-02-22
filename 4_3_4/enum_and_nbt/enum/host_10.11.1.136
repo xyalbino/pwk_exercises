@@ -1,0 +1,414 @@
+Starting enum4linux v0.8.9 ( http://labs.portcullis.co.uk/application/enum4linux/ ) on Fri Feb 22 14:16:03 2019
+
+ ========================== 
+|    Target Information    |
+ ========================== 
+Target ........... 10.11.1.136
+RID Range ........ 500-550,1000-1050
+Username ......... ''
+Password ......... ''
+Known Usernames .. administrator, guest, krbtgt, domain admins, root, bin, none
+
+
+ =================================================== 
+|    Enumerating Workgroup/Domain on 10.11.1.136    |
+ =================================================== 
+[+] Got domain/workgroup name: THINC.LOCAL
+
+ =========================================== 
+|    Nbtstat Information for 10.11.1.136    |
+ =========================================== 
+Looking up status of 10.11.1.136
+	SUFFERANCE      <00> -         B <ACTIVE>  Workstation Service
+	SUFFERANCE      <03> -         B <ACTIVE>  Messenger Service
+	SUFFERANCE      <20> -         B <ACTIVE>  File Server Service
+	..__MSBROWSE__. <01> - <GROUP> B <ACTIVE>  Master Browser
+	THINC.LOCAL     <1d> -         B <ACTIVE>  Master Browser
+	THINC.LOCAL     <1e> - <GROUP> B <ACTIVE>  Browser Service Elections
+	THINC.LOCAL     <00> - <GROUP> B <ACTIVE>  Domain/Workgroup Name
+
+	MAC Address = 00-00-00-00-00-00
+
+ ==================================== 
+|    Session Check on 10.11.1.136    |
+ ==================================== 
+[+] Server 10.11.1.136 allows sessions using username '', password ''
+
+ ========================================== 
+|    Getting domain SID for 10.11.1.136    |
+ ========================================== 
+Domain Name: THINC.LOCAL
+Domain Sid: (NULL SID)
+[+] Can't determine if host is part of domain or part of a workgroup
+
+ ===================================== 
+|    OS information on 10.11.1.136    |
+ ===================================== 
+[+] Got OS info for 10.11.1.136 from smbclient: 
+[+] Got OS info for 10.11.1.136 from srvinfo:
+	SUFFERANCE     Wk Sv PrQ Unx NT SNT sufferance debian server
+	platform_id     :	500
+	os version      :	4.9
+	server type     :	0x809a03
+
+ ============================ 
+|    Users on 10.11.1.136    |
+ ============================ 
+index: 0x1 RID: 0x3f2 acb: 0x00000010 Account: games	Name: games	Desc: (null)
+index: 0x2 RID: 0x1f5 acb: 0x00000010 Account: nobody	Name: nobody	Desc: (null)
+index: 0x3 RID: 0x402 acb: 0x00000010 Account: proxy	Name: proxy	Desc: (null)
+index: 0x4 RID: 0x42a acb: 0x00000010 Account: www-data	Name: www-data	Desc: (null)
+index: 0x5 RID: 0x3e8 acb: 0x00000010 Account: root	Name: root	Desc: (null)
+index: 0x6 RID: 0x3fa acb: 0x00000010 Account: news	Name: news	Desc: (null)
+index: 0x7 RID: 0x3ec acb: 0x00000010 Account: bin	Name: bin	Desc: (null)
+index: 0x8 RID: 0x3f8 acb: 0x00000010 Account: mail	Name: mail	Desc: (null)
+index: 0x9 RID: 0x3ea acb: 0x00000010 Account: daemon	Name: daemon	Desc: (null)
+index: 0xa RID: 0x4b6 acb: 0x00000010 Account: sshd	Name: (null)	Desc: (null)
+index: 0xb RID: 0x3f4 acb: 0x00000010 Account: man	Name: man	Desc: (null)
+index: 0xc RID: 0x3f6 acb: 0x00000010 Account: lp	Name: lp	Desc: (null)
+index: 0xd RID: 0x4b0 acb: 0x00000010 Account: Debian-exim	Name: (null)	Desc: (null)
+index: 0xe RID: 0x43a acb: 0x00000010 Account: gnats	Name: Gnats Bug-Reporting System (admin)	Desc: (null)
+index: 0xf RID: 0x42c acb: 0x00000010 Account: backup	Name: backup	Desc: (null)
+index: 0x10 RID: 0x3ee acb: 0x00000010 Account: sys	Name: sys	Desc: (null)
+index: 0x11 RID: 0xbba acb: 0x00000010 Account: bob	Name: (null)	Desc: (null)
+index: 0x12 RID: 0x4b4 acb: 0x00000010 Account: identd	Name: (null)	Desc: (null)
+index: 0x13 RID: 0x434 acb: 0x00000010 Account: list	Name: Mailing List Manager	Desc: (null)
+index: 0x14 RID: 0x436 acb: 0x00000010 Account: irc	Name: ircd	Desc: (null)
+index: 0x15 RID: 0x4b2 acb: 0x00000010 Account: statd	Name: (null)	Desc: (null)
+index: 0x16 RID: 0x3f0 acb: 0x00000010 Account: sync	Name: sync	Desc: (null)
+index: 0x17 RID: 0x3fc acb: 0x00000010 Account: uucp	Name: uucp	Desc: (null)
+
+user:[games] rid:[0x3f2]
+user:[nobody] rid:[0x1f5]
+user:[proxy] rid:[0x402]
+user:[www-data] rid:[0x42a]
+user:[root] rid:[0x3e8]
+user:[news] rid:[0x3fa]
+user:[bin] rid:[0x3ec]
+user:[mail] rid:[0x3f8]
+user:[daemon] rid:[0x3ea]
+user:[sshd] rid:[0x4b6]
+user:[man] rid:[0x3f4]
+user:[lp] rid:[0x3f6]
+user:[Debian-exim] rid:[0x4b0]
+user:[gnats] rid:[0x43a]
+user:[backup] rid:[0x42c]
+user:[sys] rid:[0x3ee]
+user:[bob] rid:[0xbba]
+user:[identd] rid:[0x4b4]
+user:[list] rid:[0x434]
+user:[irc] rid:[0x436]
+user:[statd] rid:[0x4b2]
+user:[sync] rid:[0x3f0]
+user:[uucp] rid:[0x3fc]
+
+ ======================================== 
+|    Share Enumeration on 10.11.1.136    |
+ ======================================== 
+WARNING: The "syslog" option is deprecated
+
+	Sharename       Type      Comment
+	---------       ----      -------
+	IPC$            IPC       IPC Service (sufferance debian server)
+	Bob Share       Disk      Bob Docs
+	print$          Disk      Printer Drivers
+Reconnecting with SMB1 for workgroup listing.
+
+	Server               Comment
+	---------            -------
+	SUFFERANCE           sufferance debian server
+
+	Workgroup            Master
+	---------            -------
+	ACME                 ORACLE
+	MSHOME               PAYDAY
+	MYGROUP              BARRY
+	THINC                RALPH
+	THINC.LOCAL          SUFFERANCE
+	WORKGROUP            BOB
+
+[+] Attempting to map shares on 10.11.1.136
+//10.11.1.136/IPC$	[E] Can't understand response:
+WARNING: The "syslog" option is deprecated
+do_list: [\*] NT_STATUS_NETWORK_ACCESS_DENIED
+//10.11.1.136/print$	[E] Can't understand response:
+WARNING: The "syslog" option is deprecated
+tree connect failed: NT_STATUS_WRONG_PASSWORD
+
+ =================================================== 
+|    Password Policy Information for 10.11.1.136    |
+ =================================================== 
+
+
+[+] Attaching to 10.11.1.136 using a NULL share
+
+[+] Trying protocol 445/SMB...
+
+[+] Found domain(s):
+
+	[+] SUFFERANCE
+	[+] Builtin
+
+[+] Password Info for Domain: SUFFERANCE
+
+	[+] Minimum password length: 5
+	[+] Password history length: None
+	[+] Maximum password age: Not Set
+	[+] Password Complexity Flags: 000000
+
+		[+] Domain Refuse Password Change: 0
+		[+] Domain Password Store Cleartext: 0
+		[+] Domain Password Lockout Admins: 0
+		[+] Domain Password No Clear Change: 0
+		[+] Domain Password No Anon Change: 0
+		[+] Domain Password Complex: 0
+
+	[+] Minimum password age: None
+	[+] Reset Account Lockout Counter: 30 minutes 
+	[+] Locked Account Duration: 30 minutes 
+	[+] Account Lockout Threshold: None
+	[+] Forced Log off Time: Not Set
+
+
+[+] Retieved partial password policy with rpcclient:
+
+Password Complexity: Disabled
+Minimum Password Length: 0
+
+
+ ============================= 
+|    Groups on 10.11.1.136    |
+ ============================= 
+
+[+] Getting builtin groups:
+
+[+] Getting builtin group memberships:
+
+[+] Getting local groups:
+
+[+] Getting local group memberships:
+
+[+] Getting domain groups:
+
+[+] Getting domain group memberships:
+
+ ====================================================================== 
+|    Users on 10.11.1.136 via RID cycling (RIDS: 500-550,1000-1050)    |
+ ====================================================================== 
+[I] Found new SID: S-1-5-21-1086716168-3792659489-4186792627
+[I] Found new SID: S-1-5-32
+[+] Enumerating users using SID S-1-5-32 and logon username '', password ''
+S-1-5-32-500 *unknown*\*unknown* (8)
+S-1-5-32-501 *unknown*\*unknown* (8)
+S-1-5-32-502 *unknown*\*unknown* (8)
+S-1-5-32-503 *unknown*\*unknown* (8)
+S-1-5-32-504 *unknown*\*unknown* (8)
+S-1-5-32-505 *unknown*\*unknown* (8)
+S-1-5-32-506 *unknown*\*unknown* (8)
+S-1-5-32-507 *unknown*\*unknown* (8)
+S-1-5-32-508 *unknown*\*unknown* (8)
+S-1-5-32-509 *unknown*\*unknown* (8)
+S-1-5-32-510 *unknown*\*unknown* (8)
+S-1-5-32-511 *unknown*\*unknown* (8)
+S-1-5-32-512 *unknown*\*unknown* (8)
+S-1-5-32-513 *unknown*\*unknown* (8)
+S-1-5-32-514 *unknown*\*unknown* (8)
+S-1-5-32-515 *unknown*\*unknown* (8)
+S-1-5-32-516 *unknown*\*unknown* (8)
+S-1-5-32-517 *unknown*\*unknown* (8)
+S-1-5-32-518 *unknown*\*unknown* (8)
+S-1-5-32-519 *unknown*\*unknown* (8)
+S-1-5-32-520 *unknown*\*unknown* (8)
+S-1-5-32-521 *unknown*\*unknown* (8)
+S-1-5-32-522 *unknown*\*unknown* (8)
+S-1-5-32-523 *unknown*\*unknown* (8)
+S-1-5-32-524 *unknown*\*unknown* (8)
+S-1-5-32-525 *unknown*\*unknown* (8)
+S-1-5-32-526 *unknown*\*unknown* (8)
+S-1-5-32-527 *unknown*\*unknown* (8)
+S-1-5-32-528 *unknown*\*unknown* (8)
+S-1-5-32-529 *unknown*\*unknown* (8)
+S-1-5-32-530 *unknown*\*unknown* (8)
+S-1-5-32-531 *unknown*\*unknown* (8)
+S-1-5-32-532 *unknown*\*unknown* (8)
+S-1-5-32-533 *unknown*\*unknown* (8)
+S-1-5-32-534 *unknown*\*unknown* (8)
+S-1-5-32-535 *unknown*\*unknown* (8)
+S-1-5-32-536 *unknown*\*unknown* (8)
+S-1-5-32-537 *unknown*\*unknown* (8)
+S-1-5-32-538 *unknown*\*unknown* (8)
+S-1-5-32-539 *unknown*\*unknown* (8)
+S-1-5-32-540 *unknown*\*unknown* (8)
+S-1-5-32-541 *unknown*\*unknown* (8)
+S-1-5-32-542 *unknown*\*unknown* (8)
+S-1-5-32-543 *unknown*\*unknown* (8)
+S-1-5-32-544 BUILTIN\Administrators (Local Group)
+S-1-5-32-545 BUILTIN\Users (Local Group)
+S-1-5-32-546 BUILTIN\Guests (Local Group)
+S-1-5-32-547 BUILTIN\Power Users (Local Group)
+S-1-5-32-548 BUILTIN\Account Operators (Local Group)
+S-1-5-32-549 BUILTIN\Server Operators (Local Group)
+S-1-5-32-550 BUILTIN\Print Operators (Local Group)
+S-1-5-32-1000 *unknown*\*unknown* (8)
+S-1-5-32-1001 *unknown*\*unknown* (8)
+S-1-5-32-1002 *unknown*\*unknown* (8)
+S-1-5-32-1003 *unknown*\*unknown* (8)
+S-1-5-32-1004 *unknown*\*unknown* (8)
+S-1-5-32-1005 *unknown*\*unknown* (8)
+S-1-5-32-1006 *unknown*\*unknown* (8)
+S-1-5-32-1007 *unknown*\*unknown* (8)
+S-1-5-32-1008 *unknown*\*unknown* (8)
+S-1-5-32-1009 *unknown*\*unknown* (8)
+S-1-5-32-1010 *unknown*\*unknown* (8)
+S-1-5-32-1011 *unknown*\*unknown* (8)
+S-1-5-32-1012 *unknown*\*unknown* (8)
+S-1-5-32-1013 *unknown*\*unknown* (8)
+S-1-5-32-1014 *unknown*\*unknown* (8)
+S-1-5-32-1015 *unknown*\*unknown* (8)
+S-1-5-32-1016 *unknown*\*unknown* (8)
+S-1-5-32-1017 *unknown*\*unknown* (8)
+S-1-5-32-1018 *unknown*\*unknown* (8)
+S-1-5-32-1019 *unknown*\*unknown* (8)
+S-1-5-32-1020 *unknown*\*unknown* (8)
+S-1-5-32-1021 *unknown*\*unknown* (8)
+S-1-5-32-1022 *unknown*\*unknown* (8)
+S-1-5-32-1023 *unknown*\*unknown* (8)
+S-1-5-32-1024 *unknown*\*unknown* (8)
+S-1-5-32-1025 *unknown*\*unknown* (8)
+S-1-5-32-1026 *unknown*\*unknown* (8)
+S-1-5-32-1027 *unknown*\*unknown* (8)
+S-1-5-32-1028 *unknown*\*unknown* (8)
+S-1-5-32-1029 *unknown*\*unknown* (8)
+S-1-5-32-1030 *unknown*\*unknown* (8)
+S-1-5-32-1031 *unknown*\*unknown* (8)
+S-1-5-32-1032 *unknown*\*unknown* (8)
+S-1-5-32-1033 *unknown*\*unknown* (8)
+S-1-5-32-1034 *unknown*\*unknown* (8)
+S-1-5-32-1035 *unknown*\*unknown* (8)
+S-1-5-32-1036 *unknown*\*unknown* (8)
+S-1-5-32-1037 *unknown*\*unknown* (8)
+S-1-5-32-1038 *unknown*\*unknown* (8)
+S-1-5-32-1039 *unknown*\*unknown* (8)
+S-1-5-32-1040 *unknown*\*unknown* (8)
+S-1-5-32-1041 *unknown*\*unknown* (8)
+S-1-5-32-1042 *unknown*\*unknown* (8)
+S-1-5-32-1043 *unknown*\*unknown* (8)
+S-1-5-32-1044 *unknown*\*unknown* (8)
+S-1-5-32-1045 *unknown*\*unknown* (8)
+S-1-5-32-1046 *unknown*\*unknown* (8)
+S-1-5-32-1047 *unknown*\*unknown* (8)
+S-1-5-32-1048 *unknown*\*unknown* (8)
+S-1-5-32-1049 *unknown*\*unknown* (8)
+S-1-5-32-1050 *unknown*\*unknown* (8)
+[+] Enumerating users using SID S-1-5-21-1086716168-3792659489-4186792627 and logon username '', password ''
+S-1-5-21-1086716168-3792659489-4186792627-500 *unknown*\*unknown* (8)
+S-1-5-21-1086716168-3792659489-4186792627-501 SUFFERANCE\nobody (Local User)
+S-1-5-21-1086716168-3792659489-4186792627-502 *unknown*\*unknown* (8)
+S-1-5-21-1086716168-3792659489-4186792627-503 *unknown*\*unknown* (8)
+S-1-5-21-1086716168-3792659489-4186792627-504 *unknown*\*unknown* (8)
+S-1-5-21-1086716168-3792659489-4186792627-505 *unknown*\*unknown* (8)
+S-1-5-21-1086716168-3792659489-4186792627-506 *unknown*\*unknown* (8)
+S-1-5-21-1086716168-3792659489-4186792627-507 *unknown*\*unknown* (8)
+S-1-5-21-1086716168-3792659489-4186792627-508 *unknown*\*unknown* (8)
+S-1-5-21-1086716168-3792659489-4186792627-509 *unknown*\*unknown* (8)
+S-1-5-21-1086716168-3792659489-4186792627-510 *unknown*\*unknown* (8)
+S-1-5-21-1086716168-3792659489-4186792627-511 *unknown*\*unknown* (8)
+S-1-5-21-1086716168-3792659489-4186792627-512 *unknown*\*unknown* (8)
+S-1-5-21-1086716168-3792659489-4186792627-513 SUFFERANCE\None (Domain Group)
+S-1-5-21-1086716168-3792659489-4186792627-514 *unknown*\*unknown* (8)
+S-1-5-21-1086716168-3792659489-4186792627-515 *unknown*\*unknown* (8)
+S-1-5-21-1086716168-3792659489-4186792627-516 *unknown*\*unknown* (8)
+S-1-5-21-1086716168-3792659489-4186792627-517 *unknown*\*unknown* (8)
+S-1-5-21-1086716168-3792659489-4186792627-518 *unknown*\*unknown* (8)
+S-1-5-21-1086716168-3792659489-4186792627-519 *unknown*\*unknown* (8)
+S-1-5-21-1086716168-3792659489-4186792627-520 *unknown*\*unknown* (8)
+S-1-5-21-1086716168-3792659489-4186792627-521 *unknown*\*unknown* (8)
+S-1-5-21-1086716168-3792659489-4186792627-522 *unknown*\*unknown* (8)
+S-1-5-21-1086716168-3792659489-4186792627-523 *unknown*\*unknown* (8)
+S-1-5-21-1086716168-3792659489-4186792627-524 *unknown*\*unknown* (8)
+S-1-5-21-1086716168-3792659489-4186792627-525 *unknown*\*unknown* (8)
+S-1-5-21-1086716168-3792659489-4186792627-526 *unknown*\*unknown* (8)
+S-1-5-21-1086716168-3792659489-4186792627-527 *unknown*\*unknown* (8)
+S-1-5-21-1086716168-3792659489-4186792627-528 *unknown*\*unknown* (8)
+S-1-5-21-1086716168-3792659489-4186792627-529 *unknown*\*unknown* (8)
+S-1-5-21-1086716168-3792659489-4186792627-530 *unknown*\*unknown* (8)
+S-1-5-21-1086716168-3792659489-4186792627-531 *unknown*\*unknown* (8)
+S-1-5-21-1086716168-3792659489-4186792627-532 *unknown*\*unknown* (8)
+S-1-5-21-1086716168-3792659489-4186792627-533 *unknown*\*unknown* (8)
+S-1-5-21-1086716168-3792659489-4186792627-534 *unknown*\*unknown* (8)
+S-1-5-21-1086716168-3792659489-4186792627-535 *unknown*\*unknown* (8)
+S-1-5-21-1086716168-3792659489-4186792627-536 *unknown*\*unknown* (8)
+S-1-5-21-1086716168-3792659489-4186792627-537 *unknown*\*unknown* (8)
+S-1-5-21-1086716168-3792659489-4186792627-538 *unknown*\*unknown* (8)
+S-1-5-21-1086716168-3792659489-4186792627-539 *unknown*\*unknown* (8)
+S-1-5-21-1086716168-3792659489-4186792627-540 *unknown*\*unknown* (8)
+S-1-5-21-1086716168-3792659489-4186792627-541 *unknown*\*unknown* (8)
+S-1-5-21-1086716168-3792659489-4186792627-542 *unknown*\*unknown* (8)
+S-1-5-21-1086716168-3792659489-4186792627-543 *unknown*\*unknown* (8)
+S-1-5-21-1086716168-3792659489-4186792627-544 *unknown*\*unknown* (8)
+S-1-5-21-1086716168-3792659489-4186792627-545 *unknown*\*unknown* (8)
+S-1-5-21-1086716168-3792659489-4186792627-546 *unknown*\*unknown* (8)
+S-1-5-21-1086716168-3792659489-4186792627-547 *unknown*\*unknown* (8)
+S-1-5-21-1086716168-3792659489-4186792627-548 *unknown*\*unknown* (8)
+S-1-5-21-1086716168-3792659489-4186792627-549 *unknown*\*unknown* (8)
+S-1-5-21-1086716168-3792659489-4186792627-550 *unknown*\*unknown* (8)
+S-1-5-21-1086716168-3792659489-4186792627-1000 SUFFERANCE\root (Local User)
+S-1-5-21-1086716168-3792659489-4186792627-1001 *unknown*\*unknown* (8)
+S-1-5-21-1086716168-3792659489-4186792627-1002 SUFFERANCE\daemon (Local User)
+S-1-5-21-1086716168-3792659489-4186792627-1003 *unknown*\*unknown* (8)
+S-1-5-21-1086716168-3792659489-4186792627-1004 SUFFERANCE\bin (Local User)
+S-1-5-21-1086716168-3792659489-4186792627-1005 *unknown*\*unknown* (8)
+S-1-5-21-1086716168-3792659489-4186792627-1006 SUFFERANCE\sys (Local User)
+S-1-5-21-1086716168-3792659489-4186792627-1007 *unknown*\*unknown* (8)
+S-1-5-21-1086716168-3792659489-4186792627-1008 SUFFERANCE\sync (Local User)
+S-1-5-21-1086716168-3792659489-4186792627-1009 *unknown*\*unknown* (8)
+S-1-5-21-1086716168-3792659489-4186792627-1010 SUFFERANCE\games (Local User)
+S-1-5-21-1086716168-3792659489-4186792627-1011 *unknown*\*unknown* (8)
+S-1-5-21-1086716168-3792659489-4186792627-1012 SUFFERANCE\man (Local User)
+S-1-5-21-1086716168-3792659489-4186792627-1013 *unknown*\*unknown* (8)
+S-1-5-21-1086716168-3792659489-4186792627-1014 SUFFERANCE\lp (Local User)
+S-1-5-21-1086716168-3792659489-4186792627-1015 *unknown*\*unknown* (8)
+S-1-5-21-1086716168-3792659489-4186792627-1016 SUFFERANCE\mail (Local User)
+S-1-5-21-1086716168-3792659489-4186792627-1017 *unknown*\*unknown* (8)
+S-1-5-21-1086716168-3792659489-4186792627-1018 SUFFERANCE\news (Local User)
+S-1-5-21-1086716168-3792659489-4186792627-1019 *unknown*\*unknown* (8)
+S-1-5-21-1086716168-3792659489-4186792627-1020 SUFFERANCE\uucp (Local User)
+S-1-5-21-1086716168-3792659489-4186792627-1021 *unknown*\*unknown* (8)
+S-1-5-21-1086716168-3792659489-4186792627-1022 *unknown*\*unknown* (8)
+S-1-5-21-1086716168-3792659489-4186792627-1023 *unknown*\*unknown* (8)
+S-1-5-21-1086716168-3792659489-4186792627-1024 *unknown*\*unknown* (8)
+S-1-5-21-1086716168-3792659489-4186792627-1025 *unknown*\*unknown* (8)
+S-1-5-21-1086716168-3792659489-4186792627-1026 SUFFERANCE\proxy (Local User)
+S-1-5-21-1086716168-3792659489-4186792627-1027 *unknown*\*unknown* (8)
+S-1-5-21-1086716168-3792659489-4186792627-1028 *unknown*\*unknown* (8)
+S-1-5-21-1086716168-3792659489-4186792627-1029 *unknown*\*unknown* (8)
+S-1-5-21-1086716168-3792659489-4186792627-1030 *unknown*\*unknown* (8)
+S-1-5-21-1086716168-3792659489-4186792627-1031 *unknown*\*unknown* (8)
+S-1-5-21-1086716168-3792659489-4186792627-1032 *unknown*\*unknown* (8)
+S-1-5-21-1086716168-3792659489-4186792627-1033 *unknown*\*unknown* (8)
+S-1-5-21-1086716168-3792659489-4186792627-1034 *unknown*\*unknown* (8)
+S-1-5-21-1086716168-3792659489-4186792627-1035 *unknown*\*unknown* (8)
+S-1-5-21-1086716168-3792659489-4186792627-1036 *unknown*\*unknown* (8)
+S-1-5-21-1086716168-3792659489-4186792627-1037 *unknown*\*unknown* (8)
+S-1-5-21-1086716168-3792659489-4186792627-1038 *unknown*\*unknown* (8)
+S-1-5-21-1086716168-3792659489-4186792627-1039 *unknown*\*unknown* (8)
+S-1-5-21-1086716168-3792659489-4186792627-1040 *unknown*\*unknown* (8)
+S-1-5-21-1086716168-3792659489-4186792627-1041 *unknown*\*unknown* (8)
+S-1-5-21-1086716168-3792659489-4186792627-1042 *unknown*\*unknown* (8)
+S-1-5-21-1086716168-3792659489-4186792627-1043 *unknown*\*unknown* (8)
+S-1-5-21-1086716168-3792659489-4186792627-1044 *unknown*\*unknown* (8)
+S-1-5-21-1086716168-3792659489-4186792627-1045 *unknown*\*unknown* (8)
+S-1-5-21-1086716168-3792659489-4186792627-1046 *unknown*\*unknown* (8)
+S-1-5-21-1086716168-3792659489-4186792627-1047 *unknown*\*unknown* (8)
+S-1-5-21-1086716168-3792659489-4186792627-1048 *unknown*\*unknown* (8)
+S-1-5-21-1086716168-3792659489-4186792627-1049 *unknown*\*unknown* (8)
+S-1-5-21-1086716168-3792659489-4186792627-1050 *unknown*\*unknown* (8)
+
+ ============================================ 
+|    Getting printer info for 10.11.1.136    |
+ ============================================ 
+No printers returned.
+
+
+enum4linux complete on Fri Feb 22 14:32:21 2019
+

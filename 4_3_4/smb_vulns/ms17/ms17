@@ -1,0 +1,130 @@
+# Nmap 7.70 scan initiated Fri Feb 22 12:37:26 2019 as: nmap -p 139,445 -iL ../smb_hosts --script smb-vuln-ms17-010.nse -oN ms17
+Nmap scan report for 10.11.1.8
+Host is up (0.048s latency).
+
+PORT    STATE SERVICE
+139/tcp open  netbios-ssn
+445/tcp open  microsoft-ds
+MAC Address: 00:50:56:B8:AB:26 (VMware)
+
+Nmap scan report for 10.11.1.22
+Host is up (0.050s latency).
+
+PORT    STATE  SERVICE
+139/tcp open   netbios-ssn
+445/tcp closed microsoft-ds
+MAC Address: 00:50:56:B8:C7:3A (VMware)
+
+Nmap scan report for 10.11.1.24
+Host is up (0.051s latency).
+
+PORT    STATE SERVICE
+139/tcp open  netbios-ssn
+445/tcp open  microsoft-ds
+MAC Address: 00:50:56:B8:09:44 (VMware)
+
+Nmap scan report for 10.11.1.31
+Host is up (0.051s latency).
+
+PORT    STATE SERVICE
+139/tcp open  netbios-ssn
+445/tcp open  microsoft-ds
+MAC Address: 00:50:56:B8:E5:B2 (VMware)
+
+Host script results:
+| smb-vuln-ms17-010: 
+|   VULNERABLE:
+|   Remote Code Execution vulnerability in Microsoft SMBv1 servers (ms17-010)
+|     State: VULNERABLE
+|     IDs:  CVE:CVE-2017-0143
+|     Risk factor: HIGH
+|       A critical remote code execution vulnerability exists in Microsoft SMBv1
+|        servers (ms17-010).
+|           
+|     Disclosure date: 2017-03-14
+|     References:
+|       https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-0143
+|       https://technet.microsoft.com/en-us/library/security/ms17-010.aspx
+|_      https://blogs.technet.microsoft.com/msrc/2017/05/12/customer-guidance-for-wannacrypt-attacks/
+
+Nmap scan report for 10.11.1.49
+Host is up (0.0029s latency).
+
+PORT    STATE    SERVICE
+139/tcp filtered netbios-ssn
+445/tcp filtered microsoft-ds
+MAC Address: 00:50:56:B8:13:BE (VMware)
+
+Nmap scan report for 10.11.1.50
+Host is up (0.0029s latency).
+
+PORT    STATE    SERVICE
+139/tcp filtered netbios-ssn
+445/tcp filtered microsoft-ds
+MAC Address: 00:50:56:B8:BC:56 (VMware)
+
+Nmap scan report for 10.11.1.73
+Host is up (0.073s latency).
+
+PORT    STATE SERVICE
+139/tcp open  netbios-ssn
+445/tcp open  microsoft-ds
+MAC Address: 00:50:56:B8:C7:74 (VMware)
+
+Nmap scan report for 10.11.1.75
+Host is up (0.072s latency).
+
+PORT    STATE SERVICE
+139/tcp open  netbios-ssn
+445/tcp open  microsoft-ds
+MAC Address: 00:50:56:B8:D2:D6 (VMware)
+
+Host script results:
+| smb-vuln-ms17-010: 
+|   VULNERABLE:
+|   Remote Code Execution vulnerability in Microsoft SMBv1 servers (ms17-010)
+|     State: VULNERABLE
+|     IDs:  CVE:CVE-2017-0143
+|     Risk factor: HIGH
+|       A critical remote code execution vulnerability exists in Microsoft SMBv1
+|        servers (ms17-010).
+|           
+|     Disclosure date: 2017-03-14
+|     References:
+|       https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-0143
+|       https://technet.microsoft.com/en-us/library/security/ms17-010.aspx
+|_      https://blogs.technet.microsoft.com/msrc/2017/05/12/customer-guidance-for-wannacrypt-attacks/
+
+Nmap scan report for 10.11.1.115
+Host is up (0.052s latency).
+
+PORT    STATE  SERVICE
+139/tcp open   netbios-ssn
+445/tcp closed microsoft-ds
+MAC Address: 00:50:56:B8:E9:18 (VMware)
+
+Nmap scan report for 10.11.1.128
+Host is up (0.052s latency).
+
+PORT    STATE SERVICE
+139/tcp open  netbios-ssn
+445/tcp open  microsoft-ds
+MAC Address: 00:50:56:B8:AC:51 (VMware)
+
+Host script results:
+| smb-vuln-ms17-010: 
+|   VULNERABLE:
+|   Remote Code Execution vulnerability in Microsoft SMBv1 servers (ms17-010)
+|     State: VULNERABLE
+|     IDs:  CVE:CVE-2017-0143
+|     Risk factor: HIGH
+|       A critical remote code execution vulnerability exists in Microsoft SMBv1
+|        servers (ms17-010).
+|           
+|     Disclosure date: 2017-03-14
+|     References:
+|       https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-0143
+|       https://technet.microsoft.com/en-us/library/security/ms17-010.aspx
+|_      https://blogs.technet.microsoft.com/msrc/2017/05/12/customer-guidance-for-wannacrypt-attacks/
+
+# Nmap done at Fri Feb 22 12:37:34 2019 -- 20 IP addresses (10 hosts up) scanned in 8.01 seconds

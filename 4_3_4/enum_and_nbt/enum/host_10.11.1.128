@@ -1,0 +1,148 @@
+Starting enum4linux v0.8.9 ( http://labs.portcullis.co.uk/application/enum4linux/ ) on Fri Feb 22 14:15:18 2019
+
+ ========================== 
+|    Target Information    |
+ ========================== 
+Target ........... 10.11.1.128
+RID Range ........ 500-550,1000-1050
+Username ......... ''
+Password ......... ''
+Known Usernames .. administrator, guest, krbtgt, domain admins, root, bin, none
+
+
+ =================================================== 
+|    Enumerating Workgroup/Domain on 10.11.1.128    |
+ =================================================== 
+[+] Got domain/workgroup name: WORKGROUP
+
+ =========================================== 
+|    Nbtstat Information for 10.11.1.128    |
+ =========================================== 
+Looking up status of 10.11.1.128
+	DJ              <00> -         M <ACTIVE>  Workstation Service
+	DJ              <20> -         M <ACTIVE>  File Server Service
+	WORKGROUP       <00> - <GROUP> M <ACTIVE>  Domain/Workgroup Name
+	WORKGROUP       <1e> - <GROUP> M <ACTIVE>  Browser Service Elections
+	DJ              <03> -         M <ACTIVE>  Messenger Service
+	INet~Services   <1c> - <GROUP> M <ACTIVE>  IIS
+	IS~DJ           <00> -         M <ACTIVE>  IIS
+
+	MAC Address = 00-50-56-B8-AC-51
+
+ ==================================== 
+|    Session Check on 10.11.1.128    |
+ ==================================== 
+[+] Server 10.11.1.128 allows sessions using username '', password ''
+
+ ========================================== 
+|    Getting domain SID for 10.11.1.128    |
+ ========================================== 
+Cannot connect to server.  Error was NT_STATUS_INVALID_PARAMETER
+[+] Can't determine if host is part of domain or part of a workgroup
+
+ ===================================== 
+|    OS information on 10.11.1.128    |
+ ===================================== 
+[+] Got OS info for 10.11.1.128 from smbclient: 
+[+] Got OS info for 10.11.1.128 from srvinfo:
+Cannot connect to server.  Error was NT_STATUS_INVALID_PARAMETER
+
+ ============================ 
+|    Users on 10.11.1.128    |
+ ============================ 
+
+
+ ======================================== 
+|    Share Enumeration on 10.11.1.128    |
+ ======================================== 
+WARNING: The "syslog" option is deprecated
+
+	Sharename       Type      Comment
+	---------       ----      -------
+	IPC$            IPC       Remote IPC
+	share           Disk      
+	wwwroot         Disk      
+	ADMIN$          Disk      Remote Admin
+	C$              Disk      Default share
+Reconnecting with SMB1 for workgroup listing.
+
+	Server               Comment
+	---------            -------
+
+	Workgroup            Master
+	---------            -------
+
+[+] Attempting to map shares on 10.11.1.128
+//10.11.1.128/IPC$	Mapping: OK	Listing: DENIED
+//10.11.1.128/share	Mapping: DENIED, Listing: N/A
+//10.11.1.128/wwwroot	Mapping: DENIED, Listing: N/A
+//10.11.1.128/ADMIN$	Mapping: DENIED, Listing: N/A
+//10.11.1.128/C$	Mapping: DENIED, Listing: N/A
+
+ =================================================== 
+|    Password Policy Information for 10.11.1.128    |
+ =================================================== 
+
+
+[+] Attaching to 10.11.1.128 using a NULL share
+
+[+] Trying protocol 445/SMB...
+
+[+] Found domain(s):
+
+	[+] DJ
+	[+] Builtin
+
+[+] Password Info for Domain: DJ
+
+	[+] Minimum password length: None
+	[+] Password history length: None
+	[+] Maximum password age: 42 days 22 hours 47 minutes 
+	[+] Password Complexity Flags: 000000
+
+		[+] Domain Refuse Password Change: 0
+		[+] Domain Password Store Cleartext: 0
+		[+] Domain Password Lockout Admins: 0
+		[+] Domain Password No Clear Change: 0
+		[+] Domain Password No Anon Change: 0
+		[+] Domain Password Complex: 0
+
+	[+] Minimum password age: None
+	[+] Reset Account Lockout Counter: 30 minutes 
+	[+] Locked Account Duration: 30 minutes 
+	[+] Account Lockout Threshold: None
+	[+] Forced Log off Time: Not Set
+
+
+[+] Retieved partial password policy with rpcclient:
+
+
+
+ ============================= 
+|    Groups on 10.11.1.128    |
+ ============================= 
+
+[+] Getting builtin groups:
+
+[+] Getting builtin group memberships:
+
+[+] Getting local groups:
+
+[+] Getting local group memberships:
+
+[+] Getting domain groups:
+
+[+] Getting domain group memberships:
+
+ ====================================================================== 
+|    Users on 10.11.1.128 via RID cycling (RIDS: 500-550,1000-1050)    |
+ ====================================================================== 
+
+ ============================================ 
+|    Getting printer info for 10.11.1.128    |
+ ============================================ 
+Cannot connect to server.  Error was NT_STATUS_INVALID_PARAMETER
+
+
+enum4linux complete on Fri Feb 22 14:16:03 2019
+

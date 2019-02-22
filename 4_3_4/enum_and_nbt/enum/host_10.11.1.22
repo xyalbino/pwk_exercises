@@ -1,0 +1,294 @@
+Starting enum4linux v0.8.9 ( http://labs.portcullis.co.uk/application/enum4linux/ ) on Fri Feb 22 13:36:34 2019
+
+ ========================== 
+|    Target Information    |
+ ========================== 
+Target ........... 10.11.1.22
+RID Range ........ 500-550,1000-1050
+Username ......... ''
+Password ......... ''
+Known Usernames .. administrator, guest, krbtgt, domain admins, root, bin, none
+
+
+ ================================================== 
+|    Enumerating Workgroup/Domain on 10.11.1.22    |
+ ================================================== 
+[+] Got domain/workgroup name: MYGROUP
+
+ ========================================== 
+|    Nbtstat Information for 10.11.1.22    |
+ ========================================== 
+Looking up status of 10.11.1.22
+	BARRY           <00> -         B <ACTIVE>  Workstation Service
+	BARRY           <03> -         B <ACTIVE>  Messenger Service
+	BARRY           <20> -         B <ACTIVE>  File Server Service
+	..__MSBROWSE__. <01> - <GROUP> B <ACTIVE>  Master Browser
+	MYGROUP         <00> - <GROUP> B <ACTIVE>  Domain/Workgroup Name
+	MYGROUP         <1d> -         B <ACTIVE>  Master Browser
+	MYGROUP         <1e> - <GROUP> B <ACTIVE>  Browser Service Elections
+
+	MAC Address = 00-00-00-00-00-00
+
+ =================================== 
+|    Session Check on 10.11.1.22    |
+ =================================== 
+[+] Server 10.11.1.22 allows sessions using username '', password ''
+
+ ========================================= 
+|    Getting domain SID for 10.11.1.22    |
+ ========================================= 
+Domain Name: MYGROUP
+Domain Sid: (NULL SID)
+[+] Can't determine if host is part of domain or part of a workgroup
+
+ ==================================== 
+|    OS information on 10.11.1.22    |
+ ==================================== 
+[+] Got OS info for 10.11.1.22 from smbclient: 
+[+] Got OS info for 10.11.1.22 from srvinfo:
+	BARRY          Wk Sv PrQ Unx NT SNT Samba Server
+	platform_id     :	500
+	os version      :	4.5
+	server type     :	0x9a03
+
+ =========================== 
+|    Users on 10.11.1.22    |
+ =========================== 
+
+
+ ======================================= 
+|    Share Enumeration on 10.11.1.22    |
+ ======================================= 
+WARNING: The "syslog" option is deprecated
+
+	Sharename       Type      Comment
+	---------       ----      -------
+	IPC$            IPC       IPC Service (Samba Server)
+	ADMIN$          IPC       IPC Service (Samba Server)
+Reconnecting with SMB1 for workgroup listing.
+
+	Server               Comment
+	---------            -------
+	BARRY                Samba Server
+	TOPHAT               Samba Server
+
+	Workgroup            Master
+	---------            -------
+	ACME                 ORACLE
+	MSHOME               PAYDAY
+	MYGROUP              BARRY
+	THINC                RALPH
+	THINC.LOCAL          SUFFERANCE
+	WORKGROUP            BOB
+
+[+] Attempting to map shares on 10.11.1.22
+//10.11.1.22/IPC$	[E] Can't understand response:
+WARNING: The "syslog" option is deprecated
+NT_STATUS_NETWORK_ACCESS_DENIED listing \*
+//10.11.1.22/ADMIN$	[E] Can't understand response:
+WARNING: The "syslog" option is deprecated
+tree connect failed: NT_STATUS_WRONG_PASSWORD
+
+ ================================================== 
+|    Password Policy Information for 10.11.1.22    |
+ ================================================== 
+[E] Unexpected error from polenum:
+
+
+[+] Attaching to 10.11.1.22 using a NULL share
+
+[+] Trying protocol 445/SMB...
+
+	[!] Protocol failed: [Errno Connection error (10.11.1.22:445)] [Errno 111] Connection refused
+
+[+] Trying protocol 139/SMB...
+
+	[!] Protocol failed: nca_s_op_rng_error
+
+
+[+] Retieved partial password policy with rpcclient:
+
+Password Complexity: Disabled
+Minimum Password Length: 0
+
+
+ ============================ 
+|    Groups on 10.11.1.22    |
+ ============================ 
+
+[+] Getting builtin groups:
+group:[Administrators] rid:[0x220]
+group:[Users] rid:[0x221]
+group:[Guests] rid:[0x222]
+group:[Power Users] rid:[0x223]
+group:[Account Operators] rid:[0x224]
+group:[System Operators] rid:[0x225]
+group:[Print Operators] rid:[0x226]
+group:[Backup Operators] rid:[0x227]
+group:[Replicator] rid:[0x228]
+
+[+] Getting builtin group memberships:
+Group 'Account Operators' (RID: 548) has member: Couldn't find group Account Operators
+Group 'Print Operators' (RID: 550) has member: Couldn't find group Print Operators
+Group 'Backup Operators' (RID: 551) has member: Couldn't find group Backup Operators
+Group 'Power Users' (RID: 547) has member: Couldn't find group Power Users
+Group 'Administrators' (RID: 544) has member: Couldn't find group Administrators
+Group 'System Operators' (RID: 549) has member: Couldn't find group System Operators
+Group 'Guests' (RID: 546) has member: Couldn't find group Guests
+Group 'Users' (RID: 545) has member: Couldn't find group Users
+Group 'Replicator' (RID: 552) has member: Couldn't find group Replicator
+
+[+] Getting local groups:
+group:[sys] rid:[0x3ef]
+group:[tty] rid:[0x3f3]
+group:[disk] rid:[0x3f5]
+group:[mem] rid:[0x3f9]
+group:[kmem] rid:[0x3fb]
+group:[wheel] rid:[0x3fd]
+group:[man] rid:[0x407]
+group:[dip] rid:[0x439]
+group:[lock] rid:[0x455]
+group:[users] rid:[0x4b1]
+group:[slocate] rid:[0x413]
+group:[floppy] rid:[0x40f]
+group:[utmp] rid:[0x415]
+
+[+] Getting local group memberships:
+Group 'dip' (RID: 1081) has member: Couldn't list alias members
+Group 'lock' (RID: 1109) has member: Couldn't list alias members
+Group 'mem' (RID: 1017) has member: Couldn't list alias members
+Group 'sys' (RID: 1007) has member: Couldn't list alias members
+Group 'man' (RID: 1031) has member: Couldn't list alias members
+Group 'utmp' (RID: 1045) has member: Couldn't list alias members
+Group 'disk' (RID: 1013) has member: Couldn't list alias members
+Group 'wheel' (RID: 1021) has member: Couldn't list alias members
+Group 'kmem' (RID: 1019) has member: Couldn't list alias members
+Group 'tty' (RID: 1011) has member: Couldn't list alias members
+Group 'users' (RID: 1201) has member: Couldn't list alias members
+Group 'slocate' (RID: 1043) has member: Couldn't list alias members
+Group 'floppy' (RID: 1039) has member: Couldn't list alias members
+
+[+] Getting domain groups:
+group:[Domain Admins] rid:[0x200]
+group:[Domain Users] rid:[0x201]
+
+[+] Getting domain group memberships:
+Group 'Domain Admins' (RID: 512) has member: Couldn't find group Domain Admins
+Group 'Domain Users' (RID: 513) has member: Couldn't find group Domain Users
+
+ ===================================================================== 
+|    Users on 10.11.1.22 via RID cycling (RIDS: 500-550,1000-1050)    |
+ ===================================================================== 
+[I] Found new SID: S-1-5-21-2974263341-3895402545-469881541
+[+] Enumerating users using SID S-1-5-21-2974263341-3895402545-469881541 and logon username '', password ''
+S-1-5-21-2974263341-3895402545-469881541-500 BARRY\Administrator (Local User)
+S-1-5-21-2974263341-3895402545-469881541-501 BARRY\(ý ┐ (Local User)
+S-1-5-21-2974263341-3895402545-469881541-502 BARRY\unix_group.2147483399 (Local Group)
+S-1-5-21-2974263341-3895402545-469881541-503 BARRY\unix_group.2147483399 (Local Group)
+S-1-5-21-2974263341-3895402545-469881541-504 BARRY\unix_group.2147483400 (Local Group)
+S-1-5-21-2974263341-3895402545-469881541-505 BARRY\unix_group.2147483400 (Local Group)
+S-1-5-21-2974263341-3895402545-469881541-506 BARRY\unix_group.2147483401 (Local Group)
+S-1-5-21-2974263341-3895402545-469881541-507 BARRY\unix_group.2147483401 (Local Group)
+S-1-5-21-2974263341-3895402545-469881541-508 BARRY\unix_group.2147483402 (Local Group)
+S-1-5-21-2974263341-3895402545-469881541-509 BARRY\unix_group.2147483402 (Local Group)
+S-1-5-21-2974263341-3895402545-469881541-510 BARRY\unix_group.2147483403 (Local Group)
+S-1-5-21-2974263341-3895402545-469881541-511 BARRY\unix_group.2147483403 (Local Group)
+S-1-5-21-2974263341-3895402545-469881541-512 BARRY\unix_group.2147483404 (Local Group)
+S-1-5-21-2974263341-3895402545-469881541-513 BARRY\unix_group.2147483404 (Local Group)
+S-1-5-21-2974263341-3895402545-469881541-514 BARRY\unix_group.2147483405 (Local Group)
+S-1-5-21-2974263341-3895402545-469881541-515 BARRY\unix_group.2147483405 (Local Group)
+S-1-5-21-2974263341-3895402545-469881541-516 BARRY\unix_group.2147483406 (Local Group)
+S-1-5-21-2974263341-3895402545-469881541-517 BARRY\unix_group.2147483406 (Local Group)
+S-1-5-21-2974263341-3895402545-469881541-518 BARRY\unix_group.2147483407 (Local Group)
+S-1-5-21-2974263341-3895402545-469881541-519 BARRY\unix_group.2147483407 (Local Group)
+S-1-5-21-2974263341-3895402545-469881541-520 BARRY\unix_group.2147483408 (Local Group)
+S-1-5-21-2974263341-3895402545-469881541-521 BARRY\unix_group.2147483408 (Local Group)
+S-1-5-21-2974263341-3895402545-469881541-522 BARRY\unix_group.2147483409 (Local Group)
+S-1-5-21-2974263341-3895402545-469881541-523 BARRY\unix_group.2147483409 (Local Group)
+S-1-5-21-2974263341-3895402545-469881541-524 BARRY\unix_group.2147483410 (Local Group)
+S-1-5-21-2974263341-3895402545-469881541-525 BARRY\unix_group.2147483410 (Local Group)
+S-1-5-21-2974263341-3895402545-469881541-526 BARRY\unix_group.2147483411 (Local Group)
+S-1-5-21-2974263341-3895402545-469881541-527 BARRY\unix_group.2147483411 (Local Group)
+S-1-5-21-2974263341-3895402545-469881541-528 BARRY\unix_group.2147483412 (Local Group)
+S-1-5-21-2974263341-3895402545-469881541-529 BARRY\unix_group.2147483412 (Local Group)
+S-1-5-21-2974263341-3895402545-469881541-530 BARRY\unix_group.2147483413 (Local Group)
+S-1-5-21-2974263341-3895402545-469881541-531 BARRY\unix_group.2147483413 (Local Group)
+S-1-5-21-2974263341-3895402545-469881541-532 BARRY\unix_group.2147483414 (Local Group)
+S-1-5-21-2974263341-3895402545-469881541-533 BARRY\unix_group.2147483414 (Local Group)
+S-1-5-21-2974263341-3895402545-469881541-534 BARRY\unix_group.2147483415 (Local Group)
+S-1-5-21-2974263341-3895402545-469881541-535 BARRY\unix_group.2147483415 (Local Group)
+S-1-5-21-2974263341-3895402545-469881541-536 BARRY\unix_group.2147483416 (Local Group)
+S-1-5-21-2974263341-3895402545-469881541-537 BARRY\unix_group.2147483416 (Local Group)
+S-1-5-21-2974263341-3895402545-469881541-538 BARRY\unix_group.2147483417 (Local Group)
+S-1-5-21-2974263341-3895402545-469881541-539 BARRY\unix_group.2147483417 (Local Group)
+S-1-5-21-2974263341-3895402545-469881541-540 BARRY\unix_group.2147483418 (Local Group)
+S-1-5-21-2974263341-3895402545-469881541-541 BARRY\unix_group.2147483418 (Local Group)
+S-1-5-21-2974263341-3895402545-469881541-542 BARRY\unix_group.2147483419 (Local Group)
+S-1-5-21-2974263341-3895402545-469881541-543 BARRY\unix_group.2147483419 (Local Group)
+S-1-5-21-2974263341-3895402545-469881541-544 BARRY\unix_group.2147483420 (Local Group)
+S-1-5-21-2974263341-3895402545-469881541-545 BARRY\unix_group.2147483420 (Local Group)
+S-1-5-21-2974263341-3895402545-469881541-546 BARRY\unix_group.2147483421 (Local Group)
+S-1-5-21-2974263341-3895402545-469881541-547 BARRY\unix_group.2147483421 (Local Group)
+S-1-5-21-2974263341-3895402545-469881541-548 BARRY\unix_group.2147483422 (Local Group)
+S-1-5-21-2974263341-3895402545-469881541-549 BARRY\unix_group.2147483422 (Local Group)
+S-1-5-21-2974263341-3895402545-469881541-550 BARRY\unix_group.2147483423 (Local Group)
+S-1-5-21-2974263341-3895402545-469881541-1000 BARRY\root (Local User)
+S-1-5-21-2974263341-3895402545-469881541-1001 BARRY\root (Local Group)
+S-1-5-21-2974263341-3895402545-469881541-1002 BARRY\bin (Local User)
+S-1-5-21-2974263341-3895402545-469881541-1003 BARRY\bin (Local Group)
+S-1-5-21-2974263341-3895402545-469881541-1004 BARRY\daemon (Local User)
+S-1-5-21-2974263341-3895402545-469881541-1005 BARRY\daemon (Local Group)
+S-1-5-21-2974263341-3895402545-469881541-1006 BARRY\adm (Local User)
+S-1-5-21-2974263341-3895402545-469881541-1007 BARRY\sys (Local Group)
+S-1-5-21-2974263341-3895402545-469881541-1008 BARRY\lp (Local User)
+S-1-5-21-2974263341-3895402545-469881541-1009 BARRY\adm (Local Group)
+S-1-5-21-2974263341-3895402545-469881541-1010 BARRY\sync (Local User)
+S-1-5-21-2974263341-3895402545-469881541-1011 BARRY\tty (Local Group)
+S-1-5-21-2974263341-3895402545-469881541-1012 BARRY\shutdown (Local User)
+S-1-5-21-2974263341-3895402545-469881541-1013 BARRY\disk (Local Group)
+S-1-5-21-2974263341-3895402545-469881541-1014 BARRY\halt (Local User)
+S-1-5-21-2974263341-3895402545-469881541-1015 BARRY\lp (Local Group)
+S-1-5-21-2974263341-3895402545-469881541-1016 BARRY\mail (Local User)
+S-1-5-21-2974263341-3895402545-469881541-1017 BARRY\mem (Local Group)
+S-1-5-21-2974263341-3895402545-469881541-1018 BARRY\news (Local User)
+S-1-5-21-2974263341-3895402545-469881541-1019 BARRY\kmem (Local Group)
+S-1-5-21-2974263341-3895402545-469881541-1020 BARRY\uucp (Local User)
+S-1-5-21-2974263341-3895402545-469881541-1021 BARRY\wheel (Local Group)
+S-1-5-21-2974263341-3895402545-469881541-1022 BARRY\operator (Local User)
+S-1-5-21-2974263341-3895402545-469881541-1023 BARRY\unix_group.11 (Local Group)
+S-1-5-21-2974263341-3895402545-469881541-1024 BARRY\games (Local User)
+S-1-5-21-2974263341-3895402545-469881541-1025 BARRY\mail (Local Group)
+S-1-5-21-2974263341-3895402545-469881541-1026 BARRY\gopher (Local User)
+S-1-5-21-2974263341-3895402545-469881541-1027 BARRY\news (Local Group)
+S-1-5-21-2974263341-3895402545-469881541-1028 BARRY\ftp (Local User)
+S-1-5-21-2974263341-3895402545-469881541-1029 BARRY\uucp (Local Group)
+S-1-5-21-2974263341-3895402545-469881541-1030 BARRY\unix_user.15 (Local User)
+S-1-5-21-2974263341-3895402545-469881541-1031 BARRY\man (Local Group)
+S-1-5-21-2974263341-3895402545-469881541-1032 BARRY\unix_user.16 (Local User)
+S-1-5-21-2974263341-3895402545-469881541-1033 BARRY\unix_group.16 (Local Group)
+S-1-5-21-2974263341-3895402545-469881541-1034 BARRY\unix_user.17 (Local User)
+S-1-5-21-2974263341-3895402545-469881541-1035 BARRY\unix_group.17 (Local Group)
+S-1-5-21-2974263341-3895402545-469881541-1036 BARRY\unix_user.18 (Local User)
+S-1-5-21-2974263341-3895402545-469881541-1037 BARRY\unix_group.18 (Local Group)
+S-1-5-21-2974263341-3895402545-469881541-1038 BARRY\unix_user.19 (Local User)
+S-1-5-21-2974263341-3895402545-469881541-1039 BARRY\floppy (Local Group)
+S-1-5-21-2974263341-3895402545-469881541-1040 BARRY\unix_user.20 (Local User)
+S-1-5-21-2974263341-3895402545-469881541-1041 BARRY\games (Local Group)
+S-1-5-21-2974263341-3895402545-469881541-1042 BARRY\unix_user.21 (Local User)
+S-1-5-21-2974263341-3895402545-469881541-1043 BARRY\slocate (Local Group)
+S-1-5-21-2974263341-3895402545-469881541-1044 BARRY\unix_user.22 (Local User)
+S-1-5-21-2974263341-3895402545-469881541-1045 BARRY\utmp (Local Group)
+S-1-5-21-2974263341-3895402545-469881541-1046 BARRY\squid (Local User)
+S-1-5-21-2974263341-3895402545-469881541-1047 BARRY\squid (Local Group)
+S-1-5-21-2974263341-3895402545-469881541-1048 BARRY\unix_user.24 (Local User)
+S-1-5-21-2974263341-3895402545-469881541-1049 BARRY\unix_group.24 (Local Group)
+S-1-5-21-2974263341-3895402545-469881541-1050 BARRY\unix_user.25 (Local User)
+
+ =========================================== 
+|    Getting printer info for 10.11.1.22    |
+ =========================================== 
+No printers returned.
+
+
+enum4linux complete on Fri Feb 22 13:45:53 2019
+
