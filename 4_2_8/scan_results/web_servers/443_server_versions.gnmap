@@ -1,0 +1,22 @@
+# Nmap 7.70 scan initiated Mon Feb 18 16:59:24 2019 as: nmap -sV -O -p 443 -iL port_443_open -oA 443_server_versions
+Host: 10.11.1.22 ()	Status: Up
+Host: 10.11.1.22 ()	Ports: 443/filtered/tcp//https///
+Host: 10.11.1.35 ()	Status: Up
+Host: 10.11.1.35 ()	Ports: 443/filtered/tcp//https///
+Host: 10.11.1.115 ()	Status: Up
+Host: 10.11.1.115 ()	Ports: 443/filtered/tcp//https///
+Host: 10.11.1.128 ()	Status: Up
+Host: 10.11.1.128 ()	Ports: 443/filtered/tcp//https///
+Host: 10.11.1.202 ()	Status: Up
+Host: 10.11.1.202 ()	Ports: 443/filtered/tcp//https///
+Host: 10.11.1.217 ()	Status: Up
+Host: 10.11.1.217 ()	Ports: 443/filtered/tcp//https///
+Host: 10.11.1.223 ()	Status: Up
+Host: 10.11.1.223 ()	Ports: 443/filtered/tcp//https///
+Host: 10.11.1.227 ()	Status: Up
+Host: 10.11.1.227 ()	Ports: 443/filtered/tcp//https///
+Host: 10.11.1.237 ()	Status: Up
+Host: 10.11.1.237 ()	Ports: 443/filtered/tcp//https///
+Host: 10.11.1.238 ()	Status: Up
+Host: 10.11.1.238 ()	Ports: 443/filtered/tcp//https///
+# Nmap done at Mon Feb 18 16:59:46 2019 -- 11 IP addresses (10 hosts up) scanned in 22.44 seconds

@@ -1,0 +1,34 @@
+Doing NBT name scan for addresses from 10.11.1.22
+
+IP address       NetBIOS Name     Server    User             MAC address      
+------------------------------------------------------------------------------
+10.11.1.22       BARRY            <server>  BARRY            00:00:00:00:00:00
+Doing NBT name scan for addresses from 10.11.1.72
+
+IP address       NetBIOS Name     Server    User             MAC address      
+------------------------------------------------------------------------------
+Doing NBT name scan for addresses from 10.11.1.115
+
+IP address       NetBIOS Name     Server    User             MAC address      
+------------------------------------------------------------------------------
+10.11.1.115      TOPHAT           <server>  TOPHAT           00:00:00:00:00:00
+Doing NBT name scan for addresses from 10.11.1.128
+
+IP address       NetBIOS Name     Server    User             MAC address      
+------------------------------------------------------------------------------
+10.11.1.128      DJ               <server>  DJ               00:50:56:b8:ac:51
+Doing NBT name scan for addresses from 10.11.1.217
+
+IP address       NetBIOS Name     Server    User             MAC address      
+------------------------------------------------------------------------------
+Doing NBT name scan for addresses from 10.11.1.227
+
+IP address       NetBIOS Name     Server    User             MAC address      
+------------------------------------------------------------------------------
+10.11.1.227      JD                         JD               00:50:56:b8:0c:45
+10.11.1.229      <unknown>                  <unknown>        
+Doing NBT name scan for addresses from 10.11.1.229
+
+IP address       NetBIOS Name     Server    User             MAC address      
+------------------------------------------------------------------------------
+10.11.1.229      <unknown>                  <unknown>        

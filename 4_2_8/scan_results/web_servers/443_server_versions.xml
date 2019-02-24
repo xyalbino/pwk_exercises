@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.70 scan initiated Mon Feb 18 16:59:24 2019 as: nmap -sV -O -p 443 -iL port_443_open -oA 443_server_versions -->
+<nmaprun scanner="nmap" args="nmap -sV -O -p 443 -iL port_443_open -oA 443_server_versions" start="1550527164" startstr="Mon Feb 18 16:59:24 2019" version="7.70" xmloutputversion="1.04">
+<scaninfo type="syn" protocol="tcp" numservices="1" services="443"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<host starttime="1550527164" endtime="1550527185"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="10.11.1.22" addrtype="ipv4"/>
+<address addr="00:50:56:B8:C7:3A" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="443"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="https" method="table" conf="3"/></port>
+</ports>
+<os><portused state="closed" proto="udp" portid="30851"/>
+</os>
+<distance value="1"/>
+<times srtt="7880" rttvar="7880" to="100000"/>
+</host>
+<host starttime="1550527164" endtime="1550527185"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="10.11.1.35" addrtype="ipv4"/>
+<address addr="00:50:56:B8:AC:97" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="443"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="https" method="table" conf="3"/></port>
+</ports>
+<os></os>
+<distance value="1"/>
+<times srtt="8497" rttvar="8497" to="100000"/>
+</host>
+<host starttime="1550527164" endtime="1550527185"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="10.11.1.115" addrtype="ipv4"/>
+<address addr="00:50:56:B8:E9:18" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="443"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="https" method="table" conf="3"/></port>
+</ports>
+<os><portused state="closed" proto="udp" portid="31390"/>
+</os>
+<distance value="1"/>
+<times srtt="7893" rttvar="7893" to="100000"/>
+</host>
+<host starttime="1550527164" endtime="1550527185"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="10.11.1.128" addrtype="ipv4"/>
+<address addr="00:50:56:B8:AC:51" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="443"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="https" method="table" conf="3"/></port>
+</ports>
+<os><portused state="closed" proto="udp" portid="34824"/>
+</os>
+<distance value="1"/>
+<times srtt="13994" rttvar="13994" to="100000"/>
+</host>
+<host starttime="1550527164" endtime="1550527185"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="10.11.1.202" addrtype="ipv4"/>
+<address addr="00:50:56:B8:26:5F" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="443"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="https" method="table" conf="3"/></port>
+</ports>
+<os><portused state="closed" proto="udp" portid="38397"/>
+</os>
+<distance value="1"/>
+<times srtt="14533" rttvar="14533" to="100000"/>
+</host>
+<host starttime="1550527164" endtime="1550527185"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="10.11.1.217" addrtype="ipv4"/>
+<address addr="00:50:56:B8:C3:29" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="443"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="https" method="table" conf="3"/></port>
+</ports>
+<os><portused state="closed" proto="udp" portid="39618"/>
+</os>
+<distance value="1"/>
+<times srtt="14408" rttvar="14408" to="100000"/>
+</host>
+<host starttime="1550527164" endtime="1550527185"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="10.11.1.223" addrtype="ipv4"/>
+<address addr="00:50:56:B8:7A:B0" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="443"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="https" method="table" conf="3"/></port>
+</ports>
+<os><portused state="closed" proto="udp" portid="30942"/>
+</os>
+<distance value="1"/>
+<times srtt="14608" rttvar="14608" to="100000"/>
+</host>
+<host starttime="1550527164" endtime="1550527185"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="10.11.1.227" addrtype="ipv4"/>
+<address addr="00:50:56:B8:0C:45" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="443"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="https" method="table" conf="3"/></port>
+</ports>
+<os><portused state="closed" proto="udp" portid="35683"/>
+</os>
+<distance value="1"/>
+<times srtt="14475" rttvar="14475" to="100000"/>
+</host>
+<host starttime="1550527164" endtime="1550527185"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="10.11.1.237" addrtype="ipv4"/>
+<address addr="00:50:56:B8:C7:84" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="443"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="https" method="table" conf="3"/></port>
+</ports>
+<os><portused state="closed" proto="udp" portid="44219"/>
+</os>
+<distance value="1"/>
+<times srtt="14550" rttvar="14550" to="100000"/>
+</host>
+<host starttime="1550527164" endtime="1550527185"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="10.11.1.238" addrtype="ipv4"/>
+<address addr="00:50:56:B8:64:D7" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="443"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="https" method="table" conf="3"/></port>
+</ports>
+<os><portused state="closed" proto="udp" portid="42243"/>
+</os>
+<distance value="1"/>
+<times srtt="14462" rttvar="14462" to="100000"/>
+</host>
+<runstats><finished time="1550527186" timestr="Mon Feb 18 16:59:46 2019" elapsed="22.44" summary="Nmap done at Mon Feb 18 16:59:46 2019; 11 IP addresses (10 hosts up) scanned in 22.44 seconds" exit="success"/><hosts up="10" down="1" total="11"/>
+</runstats>
+</nmaprun>
