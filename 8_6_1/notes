@@ -1,0 +1,18 @@
+secure networking with iptables:
+
+	iptables -A INPUT -p tcp --destination-port 13327 \! -d 127.0.0.1 -j DROP
+	iptables -A INPUT -p tcp --destination-port 4444 \! -d 127.0.0.1 -j DROP
+
+change directory to /usr/games/:
+
+	cd /usr/games/
+
+download crossfire:
+
+	wget www.offensive-security.com/crossfire.tar.gz
+
+unzip crossfire:
+
+	tar zxpf crossfire.tar.gz
+
+

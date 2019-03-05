@@ -1,0 +1,5 @@
+we now have to find a jmp esp instruction that will allow us to redirect execution to our payload..
+
+in order to learn the opcode for the jmp esp instruction, we can use nasm_shell that can be found with the locate command
+
+the opcode for jmp esp is FFE4 or \xff\xe4

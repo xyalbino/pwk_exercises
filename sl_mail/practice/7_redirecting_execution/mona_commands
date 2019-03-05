@@ -1,0 +1,16 @@
+list modules:
+
+!mona modules
+
+search for bytes:
+
+!mona find -s "\xff\xe4" -m slmfc.dll
+
+-s: specific
+-m: module
+
+5F4A358F   FFE4             JMP ESP
+5F4A358F   FFE4             JMP ESP
+
+
+
